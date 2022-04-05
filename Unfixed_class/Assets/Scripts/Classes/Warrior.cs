@@ -7,11 +7,13 @@ public class Warrior : PowerUps
 {   
     [SerializeField]
     GameObject warriorShield;
+    [SerializeField]
+    float shieldDuration;
     public override void PowerUp()
     {
         warriorShield.SetActive(true);
         GameManager.SetSpeed(GameManager.speed * 3);
-        Invoke("EndPowerUp", 0.5f);
+        Invoke("EndPowerUp",shieldDuration);
     }
     void EndPowerUp()
     {

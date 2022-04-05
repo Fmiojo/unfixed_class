@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 840614966001237737}
   - component: {fileID: -6877057958238969076}
   m_Layer: 0
-  m_Name: floor
+  m_Name: floor_dungeon
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 840614966001237734}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 0.1, z: 50}
+  m_LocalScale: {x: 10, y: 0.1, z: 100}
   m_Children:
   - {fileID: 6812690848865965899}
   m_Father: {fileID: 0}
@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 56f97b9fbe738c245b80278968e20686, type: 2}
+  - {fileID: 2100000, guid: 4fb9b112d6a6be040aff9a913e0fd168, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -152,7 +152,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4511730799945473946}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 840614966001237738}
@@ -169,8 +169,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 118.950874, z: 0.01}
-  m_Center: {x: 0, y: 68.83172, z: 0}
+  m_Size: {x: 1, y: 118.95087, z: 0.016468734}
+  m_Center: {x: 0, y: 68.83172, z: -1}
 --- !u!114 &5476588565262022357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,4 +183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cd149816ecab404fbed69e801d1ee00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floor: {fileID: 840614966001237734}
+  floorType: 2
+  floors:
+  - {fileID: 840614966001237734, guid: f7cf5742cc513f848bd8c36987875976, type: 3}
+  - {fileID: 840614966001237734, guid: 0479b924b36856a4793cc3d76608c167, type: 3}
+  - {fileID: 840614966001237734}

@@ -1,19 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class SpawnNextFloor : MonoBehaviour
 {
     [SerializeField]
-    GameObject floor;
+    GameObject [] floors;
+    bool spawned = false;
+    void Awake()
+    {
+        int n = UnityEngine.Random.Range(0,100);
+        if(n>=70)
+        {
+            GameManager.ChangeEnviroment();
+        }
+    }
     
     void OnTriggerEnter()
     {
-        SpawnFloor();
+        SpawnFloor(GameManager.currentEnviroment);
     }
-    void SpawnFloor()
+    void SpawnFloor(GameManager.Enviroments floorEnviroment)
     {
-        Vector3 pos = new Vector3(floor.transform.position.x, floor.transform.position.y, floor.transform.position.z + floor.transform.localScale.z);
-        Instantiate(floor, pos, Quaternion.identity);
+        if(spawned == true){return;}
+        Instantiate(floors[(int)floorEnviroment],transform.position,Quaternion.identity);
+        spawned = true;
     }
 }

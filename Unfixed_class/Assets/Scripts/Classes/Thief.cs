@@ -1,45 +1,44 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Thief : PowerUps
 {
     Rigidbody rb;
     [SerializeField]
+    float hoveringTime;
     GameObject speedParticles;
-    bool available = false;
-    [SerializeField]
-    float cooldown;
-    float time;
+    bool jumpUsed = false;
     public override void PowerUp()
     {
-        if(available == false)
+        if((jumpUsed == false)&&(SkillReady == false))
         {
             return;
         }
-        available = false;
         speedParticles.SetActive(true);
         rb = gameObject.GetComponent<Rigidbody>();
         rb.useGravity = false;
         rb.AddForce(new Vector3(0, -gameObject.GetComponent<Rigidbody>().velocity.y, 0), ForceMode.VelocityChange);
         GameManager.SetSpeed(GameManager.speed*5);
-        Invoke("EndPowerUp",0.5f);   
+        StartCoroutine(CoolDown(CoolDownTime));
+        jumpUsed = true;
+        StartCoroutine(EndPowerUp(hoveringTime));   
     }
-    void EndPowerUp()
+    IEnumerator EndPowerUp(float hoveringDuration)
     {
+        float t = hoveringDuration;
+        while(t>0)
+        {
+            t += -Time.fixedDeltaTime;
+            yield return null;
+        }
         gameObject.GetComponent<Rigidbody>().useGravity = true;
         GameManager.SetSpeed(GameManager.speed/5);
         speedParticles.SetActive(false);
-    }
-    void FixedUpdate()
-    {
-        if(playerMove.grounded == true && time <= 0)
+        while(playerMove.grounded == false)
         {
-            available = true;
+            yield return null;
         }
-        else
-        {
-            time += -Time.fixedDeltaTime;
-        }
+        jumpUsed = false;
+        yield break;
     }
 }

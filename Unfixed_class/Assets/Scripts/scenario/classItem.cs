@@ -7,10 +7,13 @@ using UnityEngine;
 public class classItem : MonoBehaviour
 {
    
-    public PlayerClassChange.Classes itemClass;
+    public GameManager.Classes itemClass;
     void OnTriggerEnter(Collider other)
     {
-        other.GetComponent<PlayerClassChange>().ChangeClass(itemClass);
-        Destroy(gameObject);
+       if(other.CompareTag("Player"))
+       {
+           GameManager.ChangeClass(itemClass);
+           Destroy(gameObject);
+       }
     }
 }

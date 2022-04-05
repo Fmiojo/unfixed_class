@@ -5,22 +5,27 @@ using UnityEngine;
 
 public class PlayerClassChange : MonoBehaviour
 {
+    public  static PlayerClassChange instance;
+    void Start()
+    {
+        if(instance == null)
+        {
+            instance = this;
+        }
+    }
     public Behaviour [] ClassesScripts;
-    public enum Classes{Base ,Warrior, Thief}
-    [SerializeField]
-    public Classes playerClass;
-    public void ChangeClass(Classes targetClass)
+    public static void ChangeClass(GameManager.Classes targetClass)
     {
         int classIndex = (int)targetClass;
-        for(int i = 0; i<ClassesScripts.Length; i++)
+        for(int i = 0; i<instance.ClassesScripts.Length; i++)
         {
             if(classIndex == i)
             {
-                ClassesScripts[i].enabled = true;
+                instance.ClassesScripts[i].enabled = true;
             }
             else
             {
-                ClassesScripts[i].enabled = false;
+                instance.ClassesScripts[i].enabled = false;
             }
         }
     }   
