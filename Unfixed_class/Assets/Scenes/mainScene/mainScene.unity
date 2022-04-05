@@ -196,30 +196,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3947246741912494776, guid: e188732a7df5447408e41434b221bdad, type: 3}
-      propertyPath: m_Size.x
-      value: 0.8666878
-      objectReference: {fileID: 0}
-    - target: {fileID: 3947246741912494776, guid: e188732a7df5447408e41434b221bdad, type: 3}
-      propertyPath: m_Size.y
-      value: 1.7757109
-      objectReference: {fileID: 0}
-    - target: {fileID: 3947246741912494776, guid: e188732a7df5447408e41434b221bdad, type: 3}
-      propertyPath: m_Center.x
-      value: 0.00304771
-      objectReference: {fileID: 0}
-    - target: {fileID: 3947246741912494776, guid: e188732a7df5447408e41434b221bdad, type: 3}
-      propertyPath: m_Center.y
-      value: 0.059697
-      objectReference: {fileID: 0}
-    - target: {fileID: 4207301217515710111, guid: e188732a7df5447408e41434b221bdad, type: 3}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4207301217515710111, guid: e188732a7df5447408e41434b221bdad, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4542850561512316768, guid: e188732a7df5447408e41434b221bdad, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -264,22 +240,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4542850561512316774, guid: e188732a7df5447408e41434b221bdad, type: 3}
-      propertyPath: cam
-      value: 
-      objectReference: {fileID: 963194225}
     - target: {fileID: 4542850561512316793, guid: e188732a7df5447408e41434b221bdad, type: 3}
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
-    - target: {fileID: 5988117822652036451, guid: e188732a7df5447408e41434b221bdad, type: 3}
-      propertyPath: cooldown
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5988117822652036451, guid: e188732a7df5447408e41434b221bdad, type: 3}
-      propertyPath: speedParticles
-      value: 
-      objectReference: {fileID: 7364848555281808422, guid: 26dbd9a574daef342b068c3036df4fa1, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e188732a7df5447408e41434b221bdad, type: 3}
 --- !u!1 &705507993
@@ -375,11 +339,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 52.329, y: 0, z: 0}
---- !u!1 &963194225 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5247936575473138400, guid: 94cf1f67f2483d442b2bde6409f7f830, type: 3}
-  m_PrefabInstance: {fileID: 5247936574547695505}
-  m_PrefabAsset: {fileID: 0}
 --- !u!20 &963194227 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 5247936575473138402, guid: 94cf1f67f2483d442b2bde6409f7f830, type: 3}
