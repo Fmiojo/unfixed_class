@@ -3,37 +3,41 @@ using UnityEngine;
 
 public class Thief : PowerUps
 {
-    Rigidbody rb;
     [SerializeField]
     float hoveringTime;
+    [SerializeField]
     GameObject speedParticles;
+    [SerializeField]
     bool jumpUsed = false;
     public override void PowerUp()
     {
-        if((jumpUsed == false)&&(SkillReady == false))
+        if((skillReady == false)||(jumpUsed == true))
         {
             return;
         }
-        speedParticles.SetActive(true);
-        rb = gameObject.GetComponent<Rigidbody>();
-        rb.useGravity = false;
-        rb.AddForce(new Vector3(0, -gameObject.GetComponent<Rigidbody>().velocity.y, 0), ForceMode.VelocityChange);
-        GameManager.SetSpeed(GameManager.speed*5);
-        StartCoroutine(CoolDown(CoolDownTime));
-        jumpUsed = true;
-        StartCoroutine(EndPowerUp(hoveringTime));   
+        else
+        {
+            speedParticles.SetActive(true);
+            rb = gameObject.GetComponent<Rigidbody>();
+            rb.useGravity = false;
+            rb.AddForce(new Vector3(0, -gameObject.GetComponent<Rigidbody>().velocity.y, 0), ForceMode.VelocityChange);
+            skillReady = false;
+            GameManager.SetSpeed(GameManager.speed*5);
+            jumpUsed = true;
+            StartCoroutine(EndPowerUp(hoveringTime));
+        }   
     }
     IEnumerator EndPowerUp(float hoveringDuration)
     {
-        float t = hoveringDuration;
-        while(t>0)
+        float t = 0;
+        while(t<hoveringDuration)
         {
-            t += -Time.fixedDeltaTime;
+            t += Time.fixedDeltaTime;
             yield return null;
         }
         gameObject.GetComponent<Rigidbody>().useGravity = true;
         GameManager.SetSpeed(GameManager.speed/5);
-        speedParticles.SetActive(false);
+        StartCoroutine(CoolDown(coolDownTime));
         while(playerMove.grounded == false)
         {
             yield return null;

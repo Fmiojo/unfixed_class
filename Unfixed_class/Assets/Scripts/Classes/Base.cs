@@ -6,6 +6,6 @@ public class Base : PowerUps
 {
     public override void PowerUp()
     {
-        Debug.Log("Nada aconteçe");
+        
     }
 }

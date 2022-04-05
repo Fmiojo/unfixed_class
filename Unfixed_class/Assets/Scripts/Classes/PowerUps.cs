@@ -5,28 +5,41 @@ using UnityEngine;
 
 public class PowerUps : MonoBehaviour
 {
+    public Rigidbody rb;
     [SerializeField]
     Material classMaterial;
     [SerializeField]
-    float coolDownTime;
-    bool skillReady = true;
+    public float coolDownTime;
+    [SerializeField]
+    public bool skillReady = true;
     
+
     void OnEnable()
     {
-        gameObject.GetComponent<MeshRenderer>().material = classMaterial;
+        SetComponents();
+        ReadySkill();
     }
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
+            
             PowerUp();
         }
+    }
+    void SetComponents()
+    {
+        gameObject.GetComponent<MeshRenderer>().material = classMaterial;
+        rb = gameObject.GetComponent<Rigidbody>();
     }
     public bool SkillReady{get;set;}
     public float CoolDownTime{get;set;}
     public virtual void PowerUp()
     {
-
+        if(skillReady == false)
+        {
+            return;
+        }
     }
     public void ReadySkill()
     {
@@ -34,12 +47,10 @@ public class PowerUps : MonoBehaviour
     }
     public virtual IEnumerator CoolDown(float coolDown)
     {
-        skillReady = false;
-        float t = coolDown;
-        while(t!=0)
+        float t = 0;
+        while(t<coolDown)
         {
-            t+= -Time.fixedDeltaTime;
-            t= Mathf.Clamp(t,0,coolDown);
+            t+= Time.fixedDeltaTime;
             yield return null;
         }
         ReadySkill();

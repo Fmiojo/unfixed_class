@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Destroy(this);
+            Destroy(this.gameObject);
         }
         DontDestroyOnLoad(gameObject);
         SetSpeed(inicialSpeed);
@@ -45,9 +45,15 @@ public class GameManager : MonoBehaviour
         GetTilePos();
         ChangeEnviroment(Enviroments.Forest);
     }
+    void Start()
+    {
+        ChangeClass(Classes.Base);
+    }
     public static void ChangeClass()
     {
-        currentClass = (Classes)UnityEngine.Random.Range(0,Enum.GetValues(typeof(Classes)).Length);
+        int randomIndex = UnityEngine.Random.Range(0,Enum.GetValues(typeof(Classes)).Length);
+        currentClass = (Classes)randomIndex;
+        PlayerClassChange.ChangeClass((Classes)randomIndex);
     }
     public static void ChangeClass(Classes targetClass)
     {

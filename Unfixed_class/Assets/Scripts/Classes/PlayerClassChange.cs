@@ -6,14 +6,18 @@ using UnityEngine;
 public class PlayerClassChange : MonoBehaviour
 {
     public  static PlayerClassChange instance;
-    void Start()
+    public Behaviour [] ClassesScripts;
+    void Awake()
     {
         if(instance == null)
         {
             instance = this;
         }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
-    public Behaviour [] ClassesScripts;
     public static void ChangeClass(GameManager.Classes targetClass)
     {
         int classIndex = (int)targetClass;
