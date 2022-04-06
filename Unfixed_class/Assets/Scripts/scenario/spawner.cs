@@ -6,11 +6,14 @@ public class spawner : MonoBehaviour
     [SerializeField]
     GameObject [] Objects;
     [SerializeField]
+    float inicialMinTime;
+    [SerializeField]
+    float inicialMaxTime;
     float [] tilePositions;
     void Start()
     {
         GetPositions();
-        StartSpawning(1,4);
+        StartSpawning(inicialMinTime,inicialMaxTime);
     }
     void GetPositions()
     {
@@ -36,7 +39,8 @@ public class spawner : MonoBehaviour
         Vector3 vectorPos = new Vector3(tilePositions[randomIndex],transform.position.y,transform.position.z);
         randomIndex = Random.Range(0,Objects.Length);
         Instantiate(Objects[randomIndex],vectorPos,Quaternion.identity);
-        yield return new WaitForSeconds(UnityEngine.Random.Range(minTime,maxTime));
+        float time = UnityEngine.Random.Range(minTime,maxTime);
+        yield return new WaitForSeconds(time);
         StartSpawning(minTime,maxTime);
         yield break;
     }

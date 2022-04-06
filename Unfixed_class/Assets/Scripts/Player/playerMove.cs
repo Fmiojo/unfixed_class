@@ -1,23 +1,32 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.ExceptionServices;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 
+[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(BoxCollider))]
 public class playerMove : MonoBehaviour
 {
-    Collider playerCollider;
     Rigidbody rb;
-    public enum Tiles{Left, Mid, Right}
-    [SerializeField]
-    Tiles playerTile;
-    [SerializeField]
-    public float jumpHeight;
+    Collider playerCollider;
+    [Header("Movement atributes")]
     [SerializeField, Range(0, 1)]
     float rollingSize;
+    [SerializeField]
+    float jumpHeight;
+    [SerializeField]
+    float gravityJumpStart;
+    [SerializeField]
+    float gravityJumpMid;
+    [SerializeField]
+    float gravityJumpEnd;
+    [SerializeField]
+    float rollFallGravity;
     float jumpSpeed;
+    public enum Tiles{Left, Mid, Right}
+    [Header("Tile Information")]
+    [SerializeField]
+    Tiles playerTile;
+
     public static bool grounded = true;
     bool rolling = false;
     bool changingTile = false;
@@ -71,9 +80,16 @@ public class playerMove : MonoBehaviour
         {
             yield break;
         }
+        float groundY = transform.position.y;
         jumpSpeed = Mathf.Sqrt(jumpHeight * -2.0f * Physics.gravity.y);
-        Vector3 jumpForce = new Vector3(0, jumpSpeed, 0);
-        rb.AddForce(jumpForce, ForceMode.VelocityChange);
+        Vector3 jumpForce = new Vector3(0, jumpSpeed-Physics.gravity.y*(1.0f-gravityJumpStart), 0);
+        rb.velocity = jumpForce;
+        yield return new WaitUntil(()=>jumpHeight/2 <= transform.position.y-groundY);
+        jumpSpeed = Physics.gravity.y*(2-gravityJumpStart);
+        jumpForce = new Vector3(0, jumpSpeed, 0);
+        rb.AddForce(jumpForce,ForceMode.VelocityChange);
+        yield return new WaitUntil(()=>rb.velocity.y<= 0);
+        rb.AddForce(Physics.gravity*(gravityJumpEnd),ForceMode.Acceleration); 
         yield break;
     }
     IEnumerator Roll()
@@ -82,31 +98,34 @@ public class playerMove : MonoBehaviour
         {
             yield break;
         }
+        StopCoroutine(Jump());
         rolling = true;
         inicialScale = transform.localScale;
         finalScale = new Vector3(inicialScale.x, inicialScale.y * rollingSize, inicialScale.z);
-        rb.AddForce(Vector3.down * 10, ForceMode.VelocityChange);
+        rb.AddForce(Vector3.down * rollFallGravity, ForceMode.VelocityChange);
         while(grounded == false)
         {
             yield return null;
         }
         float i = 0;
-        while(i <= 1)
+        do
         {
-            Vector3 size = Vector3.Lerp(inicialScale, finalScale, i);
             i += Time.fixedDeltaTime*3;
+            i = Mathf.Clamp(i,0,1);
+            Vector3 size = Vector3.Lerp(inicialScale, finalScale, i);
             transform.localScale = size;
             yield return null;
-        }
+        }while(i < 1);
         yield return new WaitForSeconds(0.5f);
         i = 0;
-        while(i <= 1)
+        do
         {
-            Vector3 size = Vector3.Lerp(finalScale, inicialScale, i);
             i += Time.fixedDeltaTime*3;
+            i = Mathf.Clamp(i,0,1);
+            Vector3 size = Vector3.Lerp(finalScale, inicialScale, i);
             transform.localScale = size;
             yield return null;
-        }
+        }while(i < 1);
         rolling = false;
         yield break;
     }

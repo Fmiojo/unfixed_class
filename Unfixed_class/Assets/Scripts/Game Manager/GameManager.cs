@@ -1,11 +1,8 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.Timeline;
 using UnityEngine.SceneManagement;
-using System.Runtime.CompilerServices;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -55,6 +52,20 @@ public class GameManager : MonoBehaviour
         currentClass = (Classes)randomIndex;
         PlayerClassChange.ChangeClass((Classes)randomIndex);
     }
+    void Update()
+    {
+       if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            if(paused == false)
+            {
+                Pause();
+            }
+            else
+            {
+                Unpause();
+            }
+        }
+    }
     public static void ChangeClass(Classes targetClass)
     {
         currentClass = targetClass;
@@ -72,6 +83,22 @@ public class GameManager : MonoBehaviour
     {
        speed = speed * 1.1f;
     }
+    IEnumerator SetSpeedOvertime(float targetSpeed, float transitionTime)
+   {
+       float lastSpeed = speed;
+       float i = 0;
+       while(i <= 1)
+       {
+           speed = Mathf.Lerp(lastSpeed, targetSpeed, i);
+           i += Time.fixedDeltaTime;
+           yield return null;
+       }
+       StopCoroutine(SetSpeedOvertime(targetSpeed, transitionTime));
+   }
+    public static void Danger()
+    {
+    
+    }
     public static void GameOver()
     {
        Time.timeScale = 0;
@@ -83,20 +110,6 @@ public class GameManager : MonoBehaviour
        SceneManager.LoadScene("mainScene");
        Time.timeScale = 1;
        Unpause();
-    }
-    void Update()
-    {
-       if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            if(paused == false)
-            {
-                Pause();
-            }
-            else
-            {
-                Unpause();
-            }
-        }
     }
     public void Pause()
     {
@@ -118,20 +131,8 @@ public class GameManager : MonoBehaviour
     public static void SetSpeed(float targetSpeed)
     {
         speed = targetSpeed;
-    }
-   IEnumerator SetSpeedOvertime(float targetSpeed, float transitionTime)
-   {
-       float lastSpeed = speed;
-       float i = 0;
-       while(i <= 1)
-       {
-           speed = Mathf.Lerp(lastSpeed, targetSpeed, i);
-           i += Time.fixedDeltaTime;
-           yield return null;
-       }
-       StopCoroutine(SetSpeedOvertime(targetSpeed, transitionTime));
-   }
-   void GetTilePos()
+    }   
+    void GetTilePos()
    {
        floor = GameObject.FindGameObjectWithTag("Floor");
        tileSize = floor.transform.localScale.x/3;
