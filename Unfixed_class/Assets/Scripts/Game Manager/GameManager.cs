@@ -13,8 +13,6 @@ public class GameManager : MonoBehaviour
    public static Enviroments currentEnviroment;
    public static bool paused;
    [SerializeField]
-   Camera mainCamera;
-   [SerializeField]
    public static GameObject player;
    GameObject floor;
    public static float [] tilesPos;
@@ -25,6 +23,7 @@ public class GameManager : MonoBehaviour
    float tileSize;
    public static bool vulnerable = false;
    public static bool invincible = false;
+   static bool coroutinesRunning = true;
    int i; 
    void Awake()
     {
@@ -36,15 +35,11 @@ public class GameManager : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-        DontDestroyOnLoad(gameObject);
-        SetSpeed(inicialSpeed);
-        GetPlayerRef();
-        GetTilePos();
-        ChangeEnviroment(Enviroments.Forest);
     }
     void Start()
     {
         ChangeClass(Classes.Base);
+        NewGame();
     }
     public static void ChangeClass()
     {
@@ -79,21 +74,32 @@ public class GameManager : MonoBehaviour
     {
         currentEnviroment = (Enviroments)UnityEngine.Random.Range(0, Enum.GetValues(typeof(Enviroments)).Length);
     }
-    public static void IncreaseSpeed()
+    public static void SetSpeed(float targetSpeed)
     {
-       speed = speed * 1.1f;
-    }
-    IEnumerator SetSpeedOvertime(float targetSpeed, float transitionTime)
+        speed = targetSpeed;
+    }  
+    public static IEnumerator IncreaseSpeedOverTime(float transitionTime,float speedIncrease,float maxSpeed)
    {
-       float lastSpeed = speed;
-       float i = 0;
-       while(i <= 1)
+       while(speed < maxSpeed)
        {
-           speed = Mathf.Lerp(lastSpeed, targetSpeed, i);
-           i += Time.fixedDeltaTime;
-           yield return null;
+           float lastSpeed = speed;
+           float targetSpeed = speed * speedIncrease;
+           float t = 0;
+           while(t<1)
+           {
+               if(coroutinesRunning == false)
+               {
+                   yield return null;
+               }
+               t += Time.fixedDeltaTime/transitionTime;
+               t = Mathf.Clamp(t,0,1);
+               speed = Mathf.Lerp(lastSpeed,targetSpeed,t);
+               yield return null;
+           }
+           speed = Mathf.Clamp(speed,0,maxSpeed);
+           yield return new WaitForSeconds(5f);   
        }
-       StopCoroutine(SetSpeedOvertime(targetSpeed, transitionTime));
+       yield break;
    }
     public static void Danger()
     {
@@ -105,11 +111,23 @@ public class GameManager : MonoBehaviour
        paused = true;
        HUD.hud.GameOver();
     }
+    public void ReloadScene()
+    {
+        SceneManager.LoadScene("mainScene");
+    }
     public void NewGame()
     {
-       SceneManager.LoadScene("mainScene");
-       Time.timeScale = 1;
-       Unpause();
+        SetSpeed(inicialSpeed);
+        GetPlayerRef();
+        GetTilePos();
+        ChangeEnviroment(Enviroments.Forest);
+        Time.timeScale = 1;
+        Unpause();
+        StartCoroutine(IncreaseSpeedOverTime(10,1.1f,inicialSpeed*5));
+    }
+    public static void Setcoroutines(bool run)
+    {
+        coroutinesRunning = run;
     }
     public void Pause()
     {
@@ -128,10 +146,6 @@ public class GameManager : MonoBehaviour
         player = GameObject.FindWithTag("Player");
         tilesPos = new float[3];
     }
-    public static void SetSpeed(float targetSpeed)
-    {
-        speed = targetSpeed;
-    }   
     void GetTilePos()
    {
        floor = GameObject.FindGameObjectWithTag("Floor");

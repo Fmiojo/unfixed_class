@@ -6,6 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider))]
 public class playerMove : MonoBehaviour
 {
+    public static playerMove instance;
     Rigidbody rb;
     Collider playerCollider;
     [Header("Movement atributes")]
@@ -16,12 +17,12 @@ public class playerMove : MonoBehaviour
     [SerializeField]
     float gravityJumpStart;
     [SerializeField]
-    float gravityJumpMid;
-    [SerializeField]
     float gravityJumpEnd;
     [SerializeField]
     float rollFallGravity;
     float jumpSpeed;
+    [SerializeField]
+    float changeSpeed;
     public enum Tiles{Left, Mid, Right}
     [Header("Tile Information")]
     [SerializeField]
@@ -34,6 +35,10 @@ public class playerMove : MonoBehaviour
     Vector3 finalScale;
     void Start()
     {
+        if(instance == null)
+        {
+            instance = this;
+        }
         playerCollider = gameObject.GetComponent<Collider>();
         rb = gameObject.GetComponent<Rigidbody>();
     }    
@@ -74,6 +79,10 @@ public class playerMove : MonoBehaviour
             grounded = false;
         }
     }
+    public bool GetGrounded()
+    {
+        return grounded;
+    }
     IEnumerator Jump()
     {
         if((rolling == true)||(grounded == false))
@@ -83,13 +92,12 @@ public class playerMove : MonoBehaviour
         float groundY = transform.position.y;
         jumpSpeed = Mathf.Sqrt(jumpHeight * -2.0f * Physics.gravity.y);
         Vector3 jumpForce = new Vector3(0, jumpSpeed-Physics.gravity.y*(1.0f-gravityJumpStart), 0);
-        rb.velocity = jumpForce;
-        yield return new WaitUntil(()=>jumpHeight/2 <= transform.position.y-groundY);
-        jumpSpeed = Physics.gravity.y*(2-gravityJumpStart);
-        jumpForce = new Vector3(0, jumpSpeed, 0);
         rb.AddForce(jumpForce,ForceMode.VelocityChange);
+        yield return new WaitUntil(()=>jumpHeight/2 <= transform.position.y-groundY);
+        Vector3 midJumpForce = new Vector3(0,Physics.gravity.y*(1.0f-gravityJumpStart) , 0);
+        rb.AddForce(midJumpForce,ForceMode.VelocityChange);
         yield return new WaitUntil(()=>rb.velocity.y<= 0);
-        rb.AddForce(Physics.gravity*(gravityJumpEnd),ForceMode.Acceleration); 
+        rb.AddForce(Physics.gravity*(gravityJumpEnd-1),ForceMode.VelocityChange);
         yield break;
     }
     IEnumerator Roll()
@@ -143,7 +151,7 @@ public class playerMove : MonoBehaviour
             float x = Mathf.Lerp(GameManager.tilesPos[(int)playerTile],GameManager.tilesPos[posIndex],i);
             Vector3 targetPos = new Vector3(x,transform.position.y,transform.position.z);
             transform.position = targetPos;
-            i += Time.fixedDeltaTime;
+            i += Time.fixedDeltaTime * changeSpeed;
             yield return null;
         }
         playerTile = (Tiles)posIndex;

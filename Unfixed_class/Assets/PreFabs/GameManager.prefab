@@ -43,6 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0c162a87b4b9b041b6d336677e6a9d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverScreen: {fileID: 2523825062047834744, guid: 6349ab216d8734a43a23013c80505856, type: 3}
-  mainCamera: {fileID: 5247936575473138402, guid: 94cf1f67f2483d442b2bde6409f7f830, type: 3}
-  inicialSpeed: 5
+  mainCamera: {fileID: 0}
+  inicialSpeed: 10

@@ -17,6 +17,9 @@ public class Thief : PowerUps
         }
         else
         {
+            GameManager.Setcoroutines(false);
+            skillReady = false;
+            StartCoroutine(CoolDown(this.coolDownTime));
             speedParticles.SetActive(true);
             rb = gameObject.GetComponent<Rigidbody>();
             rb.useGravity = false;
@@ -37,7 +40,7 @@ public class Thief : PowerUps
         }
         gameObject.GetComponent<Rigidbody>().useGravity = true;
         GameManager.SetSpeed(GameManager.speed/5);
-        StartCoroutine(CoolDown(coolDownTime));
+        GameManager.Setcoroutines(true);
         while(playerMove.grounded == false)
         {
             yield return null;

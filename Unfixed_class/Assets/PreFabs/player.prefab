@@ -167,11 +167,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rollingSize: 0.4
-  jumpHeight: 4
-  gravityJumpStart: 0.5
-  gravityJumpMid: 1
-  gravityJumpEnd: 1
+  jumpHeight: 3
+  gravityJumpStart: 0.2
+  gravityJumpEnd: 1.8
   rollFallGravity: 8
+  changeSpeed: 2
   playerTile: 1
 --- !u!114 &822536225039380171
 MonoBehaviour:
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
   classMaterial: {fileID: 2100000, guid: 2f7c7568384aad244a6478f57bb4b791, type: 2}
-  coolDownTime: 10
+  coolDownTime: 12
   skillReady: 1
   warriorShield: {fileID: 7141134991196853341}
   shieldDuration: 0.5
