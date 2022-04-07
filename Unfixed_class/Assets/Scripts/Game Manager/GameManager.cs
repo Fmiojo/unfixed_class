@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
    public static GameManager instance;
-   public enum Classes{Base ,Warrior, Thief}
+   public enum Classes{Base ,Warrior, Thief, Mage}
    public static Classes currentClass;
    public enum Enviroments{Forest,City,Dungeon}
    public static Enviroments currentEnviroment;
