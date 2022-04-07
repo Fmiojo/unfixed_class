@@ -362,11 +362,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 52.329, y: 0, z: 0}
---- !u!20 &963194227 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 5247936575473138402, guid: 94cf1f67f2483d442b2bde6409f7f830, type: 3}
-  m_PrefabInstance: {fileID: 5247936574547695505}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1062932835
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,6 +465,10 @@ PrefabInstance:
     - target: {fileID: 4542850561512316793, guid: e188732a7df5447408e41434b221bdad, type: 3}
       propertyPath: m_Name
       value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7141134991196853341, guid: e188732a7df5447408e41434b221bdad, type: 3}
+      propertyPath: m_TagString
+      value: CenarioDestroyer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e188732a7df5447408e41434b221bdad, type: 3}
@@ -584,14 +583,6 @@ PrefabInstance:
     - target: {fileID: 1440035061789241745, guid: 14038ebe10dad96408ea00ce56761793, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1440035061789241746, guid: 14038ebe10dad96408ea00ce56761793, type: 3}
-      propertyPath: mainCamera
-      value: 
-      objectReference: {fileID: 963194227}
-    - target: {fileID: 1440035061789241746, guid: 14038ebe10dad96408ea00ce56761793, type: 3}
-      propertyPath: inicialSpeed
-      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14038ebe10dad96408ea00ce56761793, type: 3}

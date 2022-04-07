@@ -6,6 +6,8 @@ using UnityEngine;
 public class Warrior : PowerUps
 {   
     [SerializeField]
+    GameObject particles;
+    [SerializeField]
     GameObject warriorShield;
     [SerializeField]
     float shieldDuration;
@@ -13,7 +15,6 @@ public class Warrior : PowerUps
     {
         if((skillReady == false)||(playerMove.instance.GetGrounded() == false))
         {
-            Debug.Log("Coxinha");
             return;
         }
         else
@@ -22,6 +23,7 @@ public class Warrior : PowerUps
             skillReady = false;
             StartCoroutine(CoolDown(this.coolDownTime));
             warriorShield.SetActive(true);
+            particles.SetActive(true);
             GameManager.SetSpeed(GameManager.speed * 3);
             Invoke("EndPowerUp",shieldDuration);
         }
@@ -29,7 +31,10 @@ public class Warrior : PowerUps
     void EndPowerUp()
     {
         GameManager.SetSpeed(GameManager.speed/3);
-        warriorShield.SetActive(false);
+        if(warriorShield != null)
+        {
+            warriorShield.SetActive(false);
+        }
         GameManager.Setcoroutines(true);
     }
 }

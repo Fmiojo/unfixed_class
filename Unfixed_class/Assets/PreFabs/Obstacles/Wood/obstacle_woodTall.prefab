@@ -247,6 +247,7 @@ GameObject:
   - component: {fileID: 8316627996459574008}
   - component: {fileID: 8180498668277578183}
   - component: {fileID: 3182009493422332210}
+  - component: {fileID: 5614920398653513974}
   m_Layer: 0
   m_Name: obstacle_woodTall
   m_TagString: Obstacle
@@ -294,8 +295,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.95, y: 0.60626113, z: 0.95}
-  m_Center: {x: 0, y: 0.9591897, z: 0}
+  m_Size: {x: 0.95, y: 0.60626113, z: 0.92079926}
+  m_Center: {x: 0, y: 0.9591897, z: 0.014600575}
 --- !u!54 &3182009493422332210
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -312,6 +313,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &5614920398653513974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2612202928323302898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc52264b8ece1af4e860f04282938c02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5385886177285215646
 GameObject:
   m_ObjectHideFlags: 0
