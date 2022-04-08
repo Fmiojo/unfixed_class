@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
    public static bool vulnerable = false;
    public static bool invincible = false;
    static bool coroutinesRunning = true;
+   public static bool specialEvent = false;
    int i; 
    void Awake()
     {
@@ -41,12 +42,6 @@ public class GameManager : MonoBehaviour
         ChangeClass(Classes.Base);
         NewGame();
     }
-    public static void ChangeClass()
-    {
-        int randomIndex = UnityEngine.Random.Range(0,Enum.GetValues(typeof(Classes)).Length);
-        currentClass = (Classes)randomIndex;
-        PlayerClassChange.ChangeClass((Classes)randomIndex);
-    }
     void Update()
     {
        if(Input.GetKeyDown(KeyCode.Escape))
@@ -61,6 +56,12 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+    public static void ChangeClass()
+    {
+        int randomIndex = UnityEngine.Random.Range(0,Enum.GetValues(typeof(Classes)).Length);
+        currentClass = (Classes)randomIndex;
+        PlayerClassChange.ChangeClass((Classes)randomIndex);
+    }
     public static void ChangeClass(Classes targetClass)
     {
         currentClass = targetClass;
@@ -68,10 +69,18 @@ public class GameManager : MonoBehaviour
     }
     public static void ChangeEnviroment(Enviroments targetEnviroment)
     {
+        if(specialEvent == true)
+        {
+            return;
+        }
         currentEnviroment = targetEnviroment;
     }
     public static void ChangeEnviroment()
     {
+        if(specialEvent == true)
+        {
+            return;
+        }
         currentEnviroment = (Enviroments)UnityEngine.Random.Range(0, Enum.GetValues(typeof(Enviroments)).Length);
     }
     public static void SetSpeed(float targetSpeed)

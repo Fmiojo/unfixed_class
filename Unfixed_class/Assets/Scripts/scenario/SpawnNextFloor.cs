@@ -8,16 +8,15 @@ public class SpawnNextFloor : MonoBehaviour
     bool spawned = false;
     void Awake()
     {
-        int n = UnityEngine.Random.Range(0,100);
-        if(n>=70)
-        {
-            GameManager.ChangeEnviroment();
-        }
+        
     }
     
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider other)
     {
-        SpawnFloor(GameManager.currentEnviroment);
+        if(other.CompareTag("Trigger"))
+        {
+            SpawnFloor(GameManager.currentEnviroment);
+        }
     }
     void SpawnFloor(GameManager.Enviroments floorEnviroment)
     {
