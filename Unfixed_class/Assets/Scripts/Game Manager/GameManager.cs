@@ -1,5 +1,7 @@
 using System;
 using System.Collections;
+using System.Dynamic;
+using UnityEditor.Networking.PlayerConnection;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,17 +14,21 @@ public class GameManager : MonoBehaviour
    public enum Enviroments{Forest,City,Dungeon}
    public static Enviroments currentEnviroment;
    public static bool paused;
+   public static bool invincible = false;
+   public static bool danger = false;
    [SerializeField]
    public static GameObject player;
    GameObject floor;
    public static float [] tilesPos;
    [SerializeField]
    public static float speed = 0;
+    [SerializeField]
+   float invincibleTime;
+   [SerializeField]
+   float dangerTime;
    [SerializeField]
    float inicialSpeed;
    float tileSize;
-   public static bool vulnerable = false;
-   public static bool invincible = false;
    static bool coroutinesRunning = true;
    public static bool specialEvent = false;
    int i; 
@@ -112,7 +118,22 @@ public class GameManager : MonoBehaviour
    }
     public static void Danger()
     {
-    
+        Debug.Log("Perigo");
+        if(danger == false)
+        {
+            danger = true;
+            playerLife.playerInstance.Danger(instance.dangerTime);
+            playerMove.instance.CorrectPos((int)playerMove.instance.playerTile);
+            instance.Invoke("Undanger",instance.dangerTime);
+        }
+        else
+        {
+            GameOver();
+        }
+    }
+    public void Undanger()
+    {
+        danger = false;
     }
     public static void GameOver()
     {

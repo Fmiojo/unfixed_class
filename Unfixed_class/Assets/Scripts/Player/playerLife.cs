@@ -4,26 +4,47 @@ using UnityEngine;
 
 public class playerLife : MonoBehaviour
 {
+   public static playerLife playerInstance;
    [SerializeField]
-   float invincibleTime;
+   int dangerTicks;
    [SerializeField]
-   float vulnerableTime;
-   public void Vulnerable()
+   int invincibleTicks;
+   
+   void Awake()
    {
-      StartCoroutine(HitEffect());
-   }
-   public void Death()
-   {
-       
-   }
-   IEnumerator HitEffect()
-   {
-      GameManager.invincible = true;
-      float i = 0;
-      while(i <= invincibleTime)
+      if(playerInstance == null)
       {
-        i += Time.fixedDeltaTime;
-        yield return null;
+         playerInstance = this;
+      }
+      else
+      {
+         Destroy(gameObject);
       }
    }
+   public void Danger(float time)
+   {
+      //StartCoroutine(InvincibleColor());
+      StartCoroutine(DangerColor(time));
+   }
+   /*IEnumerator InvincibleColor()
+   {
+      Material inicialColor = gameObject.GetComponent<MeshRenderer>().material;
+      Material finalColor = inicialColor;
+      finalColor.color = Color.black;
+   }*/
+   IEnumerator DangerColor(float time)
+   {
+      Material inicialColor = gameObject.GetComponent<MeshRenderer>().material;
+      Material finalColor = inicialColor;
+      finalColor.color = Color.black;
+      float t = 0;
+      while(t <= time)
+      {      
+         gameObject.GetComponent<MeshRenderer>().material.color = Color.Lerp(inicialColor.color,finalColor.color, Mathf.PingPong(t,1));
+         t += Time.fixedDeltaTime;
+         yield return null;
+      }
+      yield break;
+   }
+
 }

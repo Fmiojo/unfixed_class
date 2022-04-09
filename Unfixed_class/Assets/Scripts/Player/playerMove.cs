@@ -26,7 +26,7 @@ public class playerMove : MonoBehaviour
     public enum Tiles{Left, Mid, Right}
     [Header("Tile Information")]
     [SerializeField]
-    Tiles playerTile;
+    public Tiles playerTile;
 
     public static bool grounded = true;
     bool rolling = false;
@@ -156,6 +156,25 @@ public class playerMove : MonoBehaviour
         }
         playerTile = (Tiles)posIndex;
         changingTile = false;
+        yield break;
+    }
+    public void CorrectPos(int posIndex)
+    {
+        StartCoroutine(CorrectPlacement(posIndex));
+    }
+    IEnumerator CorrectPlacement(int posIndex)
+    {
+        StopCoroutine(ChangeTile(0));
+        changingTile = false;
+        float t = 0;
+        while(t <= 1)
+        {
+            float x = Mathf.Lerp(transform.position.x,GameManager.tilesPos[posIndex],t);
+            Vector3 targetPos = new Vector3(x,transform.position.y,transform.position.z);
+            transform.position = targetPos;
+            t+= Time.fixedDeltaTime * 5;
+            yield return null;
+        }
         yield break;
     }
 }
