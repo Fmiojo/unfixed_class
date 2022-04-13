@@ -18,7 +18,7 @@ public class PlayerClassChange : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    public static void ChangeClass(GameManager.Classes targetClass)
+    public void ChangeClass(GameManager.Classes targetClass)
     {
         int classIndex = (int)targetClass;
         for(int i = 0; i<instance.ClassesScripts.Length; i++)

@@ -17,7 +17,6 @@ public class Thief : PowerUps
         }
         else
         {
-            GameManager.Setcoroutines(false);
             skillReady = false;
             StartCoroutine(CoolDown(this.coolDownTime));
             speedParticles.SetActive(true);
@@ -25,7 +24,7 @@ public class Thief : PowerUps
             rb.useGravity = false;
             rb.AddForce(new Vector3(0, -gameObject.GetComponent<Rigidbody>().velocity.y, 0), ForceMode.VelocityChange);
             skillReady = false;
-            GameManager.SetSpeed(GameManager.speed*5);
+            GameManager.instance.Speed = GameManager.instance.Speed*5;
             jumpUsed = true;
             StartCoroutine(EndPowerUp(hoveringTime));
         }   
@@ -39,8 +38,7 @@ public class Thief : PowerUps
             yield return null;
         }
         gameObject.GetComponent<Rigidbody>().useGravity = true;
-        GameManager.SetSpeed(GameManager.speed/5);
-        GameManager.Setcoroutines(true);
+        GameManager.instance.Speed = GameManager.instance.Speed/5;
         while(playerMove.grounded == false)
         {
             yield return null;

@@ -18,7 +18,7 @@ public class EnviromentChanger : MonoBehaviour
        while(stop == false)
        {
             float time = UnityEngine.Random.Range(minTime, maxTime);
-            GameManager.ChangeEnviroment();
+            GameManager.instance.CurrentEnviroment = GameManager.Enviroments.Forest;
             yield return new WaitForSeconds(time);
        }
        yield break;

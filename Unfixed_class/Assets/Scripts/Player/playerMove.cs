@@ -44,7 +44,7 @@ public class playerMove : MonoBehaviour
     }    
     void Update()
     {
-        if(GameManager.paused == true)
+        if(GameManager.instance.Paused == true)
         {
             return;
         }
@@ -165,7 +165,6 @@ public class playerMove : MonoBehaviour
     IEnumerator CorrectPlacement(int posIndex)
     {
         StopCoroutine(ChangeTile(0));
-        changingTile = false;
         float t = 0;
         while(t <= 1)
         {
@@ -175,6 +174,8 @@ public class playerMove : MonoBehaviour
             t+= Time.fixedDeltaTime * 5;
             yield return null;
         }
+        changingTile = false;
+        playerTile = (Tiles)posIndex;
         yield break;
     }
 }

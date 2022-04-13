@@ -8,31 +8,56 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-   public static GameManager instance;
-   public enum Classes{Base ,Warrior, Thief, Mage}
-   public static Classes currentClass;
-   public enum Enviroments{Forest,City,Dungeon}
-   public static Enviroments currentEnviroment;
-   public static bool paused;
-   public static bool invincible = false;
-   public static bool danger = false;
-   [SerializeField]
-   public static GameObject player;
-   GameObject floor;
-   public static float [] tilesPos;
-   [SerializeField]
-   public static float speed = 0;
+    public static GameManager instance;
+    public enum Classes{Base ,Warrior, Thief, Mage}
+    public Classes CurrentClass
+    {
+       get;set;
+    }
+    public enum Enviroments{Forest,City,Dungeon}
+    public Enviroments CurrentEnviroment
+    {
+       get;set;
+    }
+    public bool Paused
+    {
+        get;set;
+    }
+    
+    public bool Invincible
+    {
+       get;set;
+    }
+    public bool Danger
+    {
+        get;set;
+    }
+    public float Speed
+    {
+        get;set;
+    }
+    public GameObject Player
+    {
+        get;set;
+    }
+    public GameObject Floor
+    {
+        get;set;
+    }
+    public static float [] tilesPos;
     [SerializeField]
-   float invincibleTime;
-   [SerializeField]
-   float dangerTime;
-   [SerializeField]
-   float inicialSpeed;
-   float tileSize;
-   static bool coroutinesRunning = true;
-   public static bool specialEvent = false;
-   int i; 
-   void Awake()
+    public float InvincibleTime
+    {
+        get;set;
+    }
+    [SerializeField]
+    public float DangerTime
+    {
+        get;set;
+    }
+    float tileSize;
+    int i; 
+    void Awake()
     {
         if(instance == null)
         {
@@ -45,14 +70,13 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-        ChangeClass(Classes.Base);
         NewGame();
     }
     void Update()
     {
        if(Input.GetKeyDown(KeyCode.Escape))
         {
-            if(paused == false)
+            if(Paused == false)
             {
                 Pause();
             }
@@ -62,83 +86,45 @@ public class GameManager : MonoBehaviour
             }
         }
     }
-    public static void ChangeClass()
+    public void Pause()
     {
-        int randomIndex = UnityEngine.Random.Range(0,Enum.GetValues(typeof(Classes)).Length);
-        currentClass = (Classes)randomIndex;
-        PlayerClassChange.ChangeClass((Classes)randomIndex);
+        Paused = true;
+        Time.timeScale = 0;
+        HUD.hud.Pause();
     }
-    public static void ChangeClass(Classes targetClass)
+    public  void Unpause()
     {
-        currentClass = targetClass;
-        PlayerClassChange.ChangeClass(targetClass);
+        Paused = false;
+        Time.timeScale = 1;
+        HUD.hud.UnPause();
     }
-    public static void ChangeEnviroment(Enviroments targetEnviroment)
+    public void InvincibleCicleStart()
     {
-        if(specialEvent == true)
-        {
-            return;
-        }
-        currentEnviroment = targetEnviroment;
+        Invincible = true;
+        Invoke("InvincibleCicleEnd",InvincibleTime);
     }
-    public static void ChangeEnviroment()
+    void InvincibleCicleEnd()
     {
-        if(specialEvent == true)
-        {
-            return;
-        }
-        currentEnviroment = (Enviroments)UnityEngine.Random.Range(0, Enum.GetValues(typeof(Enviroments)).Length);
+        Invincible = false;
     }
-    public static void SetSpeed(float targetSpeed)
+    public void DangerCicleStart()
     {
-        speed = targetSpeed;
-    }  
-    public static IEnumerator IncreaseSpeedOverTime(float transitionTime,float speedIncrease,float maxSpeed)
-   {
-       while(speed < maxSpeed)
-       {
-           float lastSpeed = speed;
-           float targetSpeed = speed * speedIncrease;
-           float t = 0;
-           while(t<1)
-           {
-               if(coroutinesRunning == false)
-               {
-                   yield return null;
-               }
-               t += Time.fixedDeltaTime/transitionTime;
-               t = Mathf.Clamp(t,0,1);
-               speed = Mathf.Lerp(lastSpeed,targetSpeed,t);
-               yield return null;
-           }
-           speed = Mathf.Clamp(speed,0,maxSpeed);
-           yield return new WaitForSeconds(5f);   
-       }
-       yield break;
-   }
-    public static void Danger()
-    {
-        Debug.Log("Perigo");
-        if(danger == false)
-        {
-            danger = true;
-            playerLife.playerInstance.Danger(instance.dangerTime);
-            playerMove.instance.CorrectPos((int)playerMove.instance.playerTile);
-            instance.Invoke("Undanger",instance.dangerTime);
-        }
-        else
-        {
-            GameOver();
-        }
+        Danger = true;
+        Invoke("DangerCicleEnd",DangerTime);
     }
-    public void Undanger()
+    void DangerCicleEnd()
     {
-        danger = false;
+        Danger = false;
     }
-    public static void GameOver()
+
+    public void IncreaseSpeed()
+    {
+        Speed = Speed * 1.1f;
+    }
+    public void GameOver()
     {
        Time.timeScale = 0;
-       paused = true;
+       Paused = true;
        HUD.hud.GameOver();
     }
     public void ReloadScene()
@@ -147,40 +133,18 @@ public class GameManager : MonoBehaviour
     }
     public void NewGame()
     {
-        SetSpeed(inicialSpeed);
-        GetPlayerRef();
-        GetTilePos();
-        ChangeEnviroment(Enviroments.Forest);
-        Time.timeScale = 1;
+        instance.Speed = 10;
+        instance.DangerTime = 4;
+        instance.InvincibleTime = 2;
+        instance.CurrentEnviroment = Enviroments.Forest;
         Unpause();
-        StartCoroutine(IncreaseSpeedOverTime(10,1.1f,inicialSpeed*5));
+        instance.InvokeRepeating("IncreaseSpeed",0,30);
     }
-    public static void Setcoroutines(bool run)
-    {
-        coroutinesRunning = run;
-    }
-    public void Pause()
-    {
-        Time.timeScale = 0;
-        HUD.hud.Pause();
-        paused = true;
-    }
-    public void Unpause()
-    {
-        Time.timeScale = 1;
-        HUD.hud.UnPause();
-        paused = false;
-    }
-    void GetPlayerRef()
-    {
-        player = GameObject.FindWithTag("Player");
-        tilesPos = new float[3];
-    }
-    void GetTilePos()
+    public void GetTilePos(int tiles)
    {
-       floor = GameObject.FindGameObjectWithTag("Floor");
-       tileSize = floor.transform.localScale.x/3;
-       for(i = 0; i < 3; i++)
+       tilesPos = new float [tiles];
+       tileSize = Floor.transform.localScale.x/3;
+       for(i = 0; i < tilesPos.Length; i++)
        {    
            tilesPos[i] = 0 + ((i-1) * tileSize);
        }

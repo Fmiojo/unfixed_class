@@ -6,9 +6,19 @@ public class Obstacle_HitDanger : MonoBehaviour
 {
      void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player"))
+        if(other.gameObject == GameManager.instance.Player)
         {
-            GameManager.Danger();
+            if(GameManager.instance.Danger == true)
+            {
+                GameManager.instance.GameOver();
+            }
+            else
+            {
+                GameManager.instance.DangerCicleStart();
+                GameManager.instance.InvincibleCicleStart();
+                playerLife.instance.Danger();
+                playerMove.instance.CorrectPos((int)playerMove.instance.playerTile);
+            }
         }
     }
 }

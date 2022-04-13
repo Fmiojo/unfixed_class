@@ -15,7 +15,7 @@ public class SpawnNextFloor : MonoBehaviour
     {
         if(other.CompareTag("Trigger"))
         {
-            SpawnFloor(GameManager.currentEnviroment);
+            SpawnFloor(GameManager.instance.CurrentEnviroment);
         }
     }
     void SpawnFloor(GameManager.Enviroments floorEnviroment)

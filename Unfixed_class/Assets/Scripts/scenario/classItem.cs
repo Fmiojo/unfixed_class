@@ -8,9 +8,10 @@ public class classItem : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-       if(other.CompareTag("Player"))
+       if(other.gameObject == GameManager.instance.Player)
        {
-           GameManager.ChangeClass(itemClass);
+           GameManager.instance.CurrentClass = itemClass;
+           PlayerClassChange.instance.ChangeClass(GameManager.instance.CurrentClass); 
            Destroy(transform.parent.gameObject);
        }
     }

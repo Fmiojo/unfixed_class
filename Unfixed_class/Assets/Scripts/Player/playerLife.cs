@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class playerLife : MonoBehaviour
 {
-   public static playerLife playerInstance;
+   public static playerLife instance;
    [SerializeField]
    int dangerTicks;
    [SerializeField]
@@ -12,19 +12,20 @@ public class playerLife : MonoBehaviour
    
    void Awake()
    {
-      if(playerInstance == null)
+      if(instance == null)
       {
-         playerInstance = this;
+         instance = this;
+         GameManager.instance.Player = this.gameObject;
       }
       else
       {
          Destroy(gameObject);
       }
    }
-   public void Danger(float time)
+   public void Danger()
    {
       //StartCoroutine(InvincibleColor());
-      StartCoroutine(DangerColor(time));
+      StartCoroutine(DangerColor());
    }
    /*IEnumerator InvincibleColor()
    {
@@ -32,16 +33,15 @@ public class playerLife : MonoBehaviour
       Material finalColor = inicialColor;
       finalColor.color = Color.black;
    }*/
-   IEnumerator DangerColor(float time)
+   IEnumerator DangerColor()
    {
-      Material inicialColor = gameObject.GetComponent<MeshRenderer>().material;
-      Material finalColor = inicialColor;
-      finalColor.color = Color.black;
+      Color inicialColor = gameObject.GetComponent<MeshRenderer>().material.color;
+      Color finalColor = Color.black;
       float t = 0;
-      while(t <= time)
+      while(t <= GameManager.instance.DangerTime)
       {      
-         gameObject.GetComponent<MeshRenderer>().material.color = Color.Lerp(inicialColor.color,finalColor.color, Mathf.PingPong(t,1));
          t += Time.fixedDeltaTime;
+         gameObject.GetComponent<MeshRenderer>().material.color = Color.Lerp(inicialColor,finalColor, Mathf.PingPong(t,1));
          yield return null;
       }
       yield break;
