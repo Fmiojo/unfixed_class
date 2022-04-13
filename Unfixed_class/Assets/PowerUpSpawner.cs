@@ -31,7 +31,7 @@ public class PowerUpSpawner : MonoBehaviour
     {
         MinTime = 30;
         MaxTime = 60;
-        StartRegularSpawning();
+        Invoke("StartRegularSpawning",5f);
     }
     void Spawn(int targetIndex, int tile)
     {
