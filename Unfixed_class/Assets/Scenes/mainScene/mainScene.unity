@@ -614,42 +614,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 822536225039380171, guid: e188732a7df5447408e41434b221bdad, type: 3}
-      propertyPath: dangerTicks
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 822536225039380171, guid: e188732a7df5447408e41434b221bdad, type: 3}
-      propertyPath: invincibleTicks
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1494610566570838804, guid: e188732a7df5447408e41434b221bdad, type: 3}
-      propertyPath: TriggerModule.enter
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1494610566570838804, guid: e188732a7df5447408e41434b221bdad, type: 3}
-      propertyPath: TriggerModule.enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1494610566570838804, guid: e188732a7df5447408e41434b221bdad, type: 3}
-      propertyPath: CollisionModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1494610566570838804, guid: e188732a7df5447408e41434b221bdad, type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 160
-      objectReference: {fileID: 0}
-    - target: {fileID: 1494610566570838804, guid: e188732a7df5447408e41434b221bdad, type: 3}
-      propertyPath: TriggerModule.primitives.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1494610566570838804, guid: e188732a7df5447408e41434b221bdad, type: 3}
-      propertyPath: TriggerModule.primitives.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2833326841183137150, guid: e188732a7df5447408e41434b221bdad, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4542850561512316768, guid: e188732a7df5447408e41434b221bdad, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -697,6 +661,10 @@ PrefabInstance:
     - target: {fileID: 4542850561512316793, guid: e188732a7df5447408e41434b221bdad, type: 3}
       propertyPath: m_Name
       value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697303483131684635, guid: e188732a7df5447408e41434b221bdad, type: 3}
+      propertyPath: m_Height
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e188732a7df5447408e41434b221bdad, type: 3}

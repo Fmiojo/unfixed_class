@@ -4,20 +4,22 @@ using UnityEngine;
 
 public class Obstacle_HitDanger : MonoBehaviour
 {
-     void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
+
         if(other.gameObject == GameManager.instance.Player)
         {
-            if(GameManager.instance.Danger == true)
+            if(GameManager.instance.Invincible == false)
             {
-                GameManager.instance.GameOver();
-            }
-            else
-            {
-                GameManager.instance.DangerCicleStart();
-                GameManager.instance.InvincibleCicleStart();
-                playerLife.instance.Danger();
-                playerMove.instance.CorrectPos((int)playerMove.instance.playerTile);
+                if(GameManager.instance.Danger == true)
+                {
+                    GameManager.instance.GameOver();
+                }
+                else
+                {
+                    playerLife.instance.DangerInvincible();
+                    playerMove.instance.CorrectPos((int)playerMove.instance.playerTile);
+                }
             }
         }
     }

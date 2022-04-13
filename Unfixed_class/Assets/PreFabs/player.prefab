@@ -264,7 +264,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 80
+      scalar: 160
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -3887,7 +3887,7 @@ ParticleSystem:
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
-    enabled: 0
+    enabled: 1
     serializedVersion: 2
     inside: 1
     outside: 0
@@ -4951,7 +4951,7 @@ GameObject:
   - component: {fileID: 5988117822652036451}
   - component: {fileID: 7097383115925519343}
   - component: {fileID: 4207301217515710111}
-  - component: {fileID: 3947246741912494776}
+  - component: {fileID: 6697303483131684635}
   m_Layer: 8
   m_Name: player
   m_TagString: Player
@@ -5057,8 +5057,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 689834d67526fec48b989408a9806178, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  invincibleTime: 1
-  vulnerableTime: 3
+  dangerTicks: 1
+  invincibleTicks: 1
 --- !u!114 &1296243082540159049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5163,8 +5163,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 1
---- !u!65 &3947246741912494776
-BoxCollider:
+--- !u!136 &6697303483131684635
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5173,8 +5173,9 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 2, z: 1}
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4752862871408999000
 GameObject:

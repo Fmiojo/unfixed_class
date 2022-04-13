@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(BoxCollider))]
+[RequireComponent(typeof(CapsuleCollider))]
 public class playerMove : MonoBehaviour
 {
     public static playerMove instance;
@@ -33,7 +33,7 @@ public class playerMove : MonoBehaviour
     bool changingTile = false;
     Vector3 inicialScale;
     Vector3 finalScale;
-    void Start()
+    void Awake()
     {
         if(instance == null)
         {

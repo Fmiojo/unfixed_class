@@ -6,13 +6,12 @@ public class Obstacle_HitKill : MonoBehaviour
 {
    void OnTriggerEnter(Collider other)
     {
-        if(GameManager.instance.Invincible == true)
+        if(GameManager.instance.Invincible == false)
         {
-            return;
-        }
-        if(other.gameObject == GameManager.instance.Player)
-        {
-            GameManager.instance.GameOver();
+            if(other.gameObject == GameManager.instance.Player)
+            {
+                GameManager.instance.GameOver();
+            }
         }
     }
 }

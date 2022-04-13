@@ -98,25 +98,6 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         HUD.hud.UnPause();
     }
-    public void InvincibleCicleStart()
-    {
-        Invincible = true;
-        Invoke("InvincibleCicleEnd",InvincibleTime);
-    }
-    void InvincibleCicleEnd()
-    {
-        Invincible = false;
-    }
-    public void DangerCicleStart()
-    {
-        Danger = true;
-        Invoke("DangerCicleEnd",DangerTime);
-    }
-    void DangerCicleEnd()
-    {
-        Danger = false;
-    }
-
     public void IncreaseSpeed()
     {
         Speed = Speed * 1.1f;
@@ -134,11 +115,13 @@ public class GameManager : MonoBehaviour
     public void NewGame()
     {
         instance.Speed = 10;
-        instance.DangerTime = 4;
-        instance.InvincibleTime = 2;
+        instance.DangerTime = 6;
+        instance.InvincibleTime = 1;
         instance.CurrentEnviroment = Enviroments.Forest;
         Unpause();
         instance.InvokeRepeating("IncreaseSpeed",0,30);
+        instance.Danger = false;
+        instance.Invincible = false;
     }
     public void GetTilePos(int tiles)
    {
