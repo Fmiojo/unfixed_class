@@ -144,11 +144,11 @@ public class playerMove : MonoBehaviour
             yield break;
         }
         changingTile = true;
-        posIndex = Mathf.Clamp(posIndex,0,GameManager.tilesPos.Length-1);
+        posIndex = Mathf.Clamp(posIndex,0,GameManager.instance.tilesPos.Length-1);
         float i = 0;
         while(i<=1)
         {     
-            float x = Mathf.Lerp(GameManager.tilesPos[(int)playerTile],GameManager.tilesPos[posIndex],i);
+            float x = Mathf.Lerp(GameManager.instance.tilesPos[(int)playerTile],GameManager.instance.tilesPos[posIndex],i);
             Vector3 targetPos = new Vector3(x,transform.position.y,transform.position.z);
             transform.position = targetPos;
             i += Time.fixedDeltaTime * changeSpeed;
@@ -168,7 +168,7 @@ public class playerMove : MonoBehaviour
         float t = 0;
         while(t <= 1)
         {
-            float x = Mathf.Lerp(transform.position.x,GameManager.tilesPos[posIndex],t);
+            float x = Mathf.Lerp(transform.position.x,GameManager.instance.tilesPos[posIndex],t);
             Vector3 targetPos = new Vector3(x,transform.position.y,transform.position.z);
             transform.position = targetPos;
             t+= Time.fixedDeltaTime * 5;

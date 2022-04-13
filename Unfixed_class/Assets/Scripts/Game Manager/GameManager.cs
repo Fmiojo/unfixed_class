@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
     {
         get;set;
     }
-    public static float [] tilesPos;
+    public float [] tilesPos;
     [SerializeField]
     public float InvincibleTime
     {
@@ -117,7 +117,6 @@ public class GameManager : MonoBehaviour
         instance.Speed = 10;
         instance.DangerTime = 6;
         instance.InvincibleTime = 1;
-        instance.CurrentEnviroment = Enviroments.Forest;
         Unpause();
         instance.InvokeRepeating("IncreaseSpeed",0,30);
         instance.Danger = false;
@@ -129,7 +128,7 @@ public class GameManager : MonoBehaviour
        tileSize = Floor.transform.localScale.x/3;
        for(i = 0; i < tilesPos.Length; i++)
        {    
-           tilesPos[i] = 0 + ((i-1) * tileSize);
+           tilesPos[i] = 0 + ((i-(tiles/2)) * tileSize);
        }
    }
 }

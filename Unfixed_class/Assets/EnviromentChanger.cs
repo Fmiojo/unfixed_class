@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,28 +9,39 @@ public class EnviromentChanger : MonoBehaviour
     float minEnviromentTime;
     [SerializeField]
     float maxEnviromentTime;
-    bool stop = false;
+    public bool Stop
+    {
+        get;set;
+    }
    void Start()
    {
-       StartChanging();
+       ChangeEnviroment(GameManager.Enviroments.Forest);
+       StartVariation();
    }
-   IEnumerator ChangeEnviroment(float minTime, float maxTime)
+   IEnumerator EnviromentVariation()
    {
-       while(stop == false)
-       {
-            float time = UnityEngine.Random.Range(minTime, maxTime);
-            GameManager.instance.CurrentEnviroment = GameManager.Enviroments.Forest;
+        while(Stop == false)
+        {
+            float time = UnityEngine.Random.Range(minEnviromentTime,maxEnviromentTime);
+            int size = Enum.GetNames(typeof(GameManager.Enviroments)).Length;
+            GameManager.Enviroments targetEnviroment = (GameManager.Enviroments)UnityEngine.Random.Range(0,size);
+            ChangeEnviroment(targetEnviroment);
             yield return new WaitForSeconds(time);
-       }
-       yield break;
+        }
+        yield break;       
    }
-   void StopChanging()
+   public void ChangeEnviroment(GameManager.Enviroments targetEnviroment)
    {
-       stop = true;
+       GameManager.instance.CurrentEnviroment = targetEnviroment;
+       ObstacleSpawner.instance.Invoke("SetType",100/GameManager.instance.Speed);
    }
-   void StartChanging()
+   public void StartVariation()
    {
-       stop = false;
-       StartCoroutine(ChangeEnviroment(minEnviromentTime,maxEnviromentTime));
+       Stop = false;
+       StartCoroutine(EnviromentVariation());
+   }
+   public void StopVariation()
+   {
+       Stop = true;
    }
 }
