@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-        NewGame();
+        PreGame();
     }
     void Update()
     {
@@ -111,23 +111,28 @@ public class GameManager : MonoBehaviour
     public void ReloadScene()
     {
         SceneManager.LoadScene("mainScene");
-        NewGame();
-
+        PreGame();
     }
     public void PreGame()
     {
-        Time.timeScale = 0;
+        instance.Speed = 0;
         Paused = true;
+        CameraMove.instance.PreGameSet();
+        HUD.instance.PreGame();
     }
     public void NewGame()
     {
+        CameraMove.instance.NewGame();
+        SpawnFloor.instance.Spawn();
         instance.Speed = 10;
         instance.DangerTime = 6;
         instance.InvincibleTime = 1;
+        ObstacleSpawner.instance.StartRegularSpawning();
         Unpause();
         instance.InvokeRepeating("IncreaseSpeed",0,30);
         instance.Danger = false;
         instance.Invincible = false;
+        ObstacleSpawner.instance.Invoke("StartRegularSpawning",5f);
     }
     public void GetTilePos(int tiles)
    {

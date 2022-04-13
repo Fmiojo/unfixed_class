@@ -45,7 +45,6 @@ public class ObstacleSpawner : MonoBehaviour
         MaxTime = 2f;
         MinTime = 1f;
         SetType();
-        StartRegularSpawning();
     }
     public void SetType()
     {

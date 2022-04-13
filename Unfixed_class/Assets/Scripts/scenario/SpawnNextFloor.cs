@@ -15,13 +15,13 @@ public class SpawnNextFloor : MonoBehaviour
     {
         if(other.CompareTag("Trigger"))
         {
-            SpawnFloor(GameManager.instance.CurrentEnviroment);
+            SpawnFloor();
         }
     }
-    void SpawnFloor(GameManager.Enviroments floorEnviroment)
+    void SpawnFloor()
     {
         if(spawned == true){return;}
-        Instantiate(floors[(int)floorEnviroment],transform.position,Quaternion.identity);
+        Instantiate(floors[(int)GameManager.instance.CurrentEnviroment],transform.position,Quaternion.identity);
         spawned = true;
     }
 }

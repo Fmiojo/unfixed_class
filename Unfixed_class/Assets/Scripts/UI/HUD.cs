@@ -10,6 +10,8 @@ public class HUD : MonoBehaviour
     GameObject gameOverMenu;
     [SerializeField]
     GameObject PreGameMenu;
+    [SerializeField]
+    GameObject MainHUD;
     public static HUD instance;
     void Awake()
     {
@@ -25,6 +27,11 @@ public class HUD : MonoBehaviour
     public void PreGame()
     {
         PreGameMenu.SetActive(true);
+    }
+    public void NewGame()
+    {
+        PreGameMenu.SetActive(false);
+        MainHUD.SetActive(true);
     }
 
     public void Pause()
