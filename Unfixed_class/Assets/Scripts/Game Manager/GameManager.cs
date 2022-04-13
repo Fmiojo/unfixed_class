@@ -90,13 +90,13 @@ public class GameManager : MonoBehaviour
     {
         Paused = true;
         Time.timeScale = 0;
-        HUD.hud.Pause();
+        HUD.instance.Pause();
     }
     public  void Unpause()
     {
         Paused = false;
         Time.timeScale = 1;
-        HUD.hud.UnPause();
+        HUD.instance.UnPause();
     }
     public void IncreaseSpeed()
     {
@@ -106,11 +106,18 @@ public class GameManager : MonoBehaviour
     {
        Time.timeScale = 0;
        Paused = true;
-       HUD.hud.GameOver();
+       HUD.instance.GameOver();
     }
     public void ReloadScene()
     {
         SceneManager.LoadScene("mainScene");
+        NewGame();
+
+    }
+    public void PreGame()
+    {
+        Time.timeScale = 0;
+        Paused = true;
     }
     public void NewGame()
     {

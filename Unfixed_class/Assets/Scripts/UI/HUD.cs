@@ -8,18 +8,25 @@ public class HUD : MonoBehaviour
     GameObject pauseMenu;
     [SerializeField]
     GameObject gameOverMenu;
-    public static HUD hud;
+    [SerializeField]
+    GameObject PreGameMenu;
+    public static HUD instance;
     void Awake()
     {
-        if(hud == null)
+        if(instance == null)
         {
-            hud = this;
+            instance = this;
         }
         else
         {
             Destroy(gameObject);
         }
     }
+    public void PreGame()
+    {
+        PreGameMenu.SetActive(true);
+    }
+
     public void Pause()
     {
         pauseMenu.SetActive(true);
