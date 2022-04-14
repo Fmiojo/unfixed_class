@@ -63,14 +63,16 @@ public class GameManager : MonoBehaviour
         {
             instance = this;
         }
-        else
+        else if(instance != this)
         {
             Destroy(this.gameObject);
         }
+        Time.timeScale = 1f;
+        instance.Invoke("PreGame",2f);
     }
-    void Start()
+    void OnSceneLoaded(Scene mainScene)
     {
-        PreGame();
+        instance.Invoke("PreGame",2f);
     }
     void Update()
     {
@@ -111,28 +113,29 @@ public class GameManager : MonoBehaviour
     public void ReloadScene()
     {
         SceneManager.LoadScene("mainScene");
-        PreGame();
     }
     public void PreGame()
     {
         instance.Speed = 0;
-        Paused = true;
+        instance.Paused = true;
         CameraMove.instance.PreGameSet();
         HUD.instance.PreGame();
+        Debug.Log("Chamada");
     }
     public void NewGame()
     {
+        instance.Paused = false;
         CameraMove.instance.NewGame();
+        HUD.instance.NewGame();
         SpawnFloor.instance.Spawn();
         instance.Speed = 10;
         instance.DangerTime = 6;
         instance.InvincibleTime = 1;
-        ObstacleSpawner.instance.StartRegularSpawning();
-        Unpause();
-        instance.InvokeRepeating("IncreaseSpeed",0,30);
+        instance.InvokeRepeating("IncreaseSpeed",0,20);
         instance.Danger = false;
         instance.Invincible = false;
-        ObstacleSpawner.instance.Invoke("StartRegularSpawning",5f);
+        PowerUpSpawner.instance.Invoke("StartRegularSpawning",1f);
+        ObstacleSpawner.instance.Invoke("StartRegularSpawning",1f);
     }
     public void GetTilePos(int tiles)
    {

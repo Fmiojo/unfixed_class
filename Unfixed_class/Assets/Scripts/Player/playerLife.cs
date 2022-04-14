@@ -21,8 +21,9 @@ public class playerLife : MonoBehaviour
       {
          Destroy(gameObject);
       }
+      instance.Invoke("SetPlayerRef",0.5f);
    }
-   void Start()
+   void SetPlayerRef()
    {
       GameManager.instance.Player = this.gameObject;
    }

@@ -15,18 +15,12 @@ public class HUD : MonoBehaviour
     public static HUD instance;
     void Awake()
     {
-        if(instance == null)
-        {
-            instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        instance = this;
     }
     public void PreGame()
     {
-        PreGameMenu.SetActive(true);
+        instance.PreGameMenu.SetActive(true);
+        Debug.Log("HUD carregada");
     }
     public void NewGame()
     {

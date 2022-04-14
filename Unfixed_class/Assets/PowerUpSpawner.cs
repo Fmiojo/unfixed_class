@@ -26,9 +26,6 @@ public class PowerUpSpawner : MonoBehaviour
         {
             instance = this;
         }
-    }
-    void Start()
-    {
         MinTime = 30;
         MaxTime = 60;
     }
@@ -38,7 +35,7 @@ public class PowerUpSpawner : MonoBehaviour
         GameObject target = targetArray[targetIndex];
         Instantiate(target,pos,Quaternion.identity);
     }
-    void StartRegularSpawning()
+    public void StartRegularSpawning()
     {
         Stop = false;
         StartCoroutine(RegularSpawning());

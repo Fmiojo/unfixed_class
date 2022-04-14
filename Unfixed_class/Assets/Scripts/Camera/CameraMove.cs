@@ -18,14 +18,7 @@ public class CameraMove : MonoBehaviour
     GameObject Target;
     void Awake()
     {
-        if(instance == null)
-        {
-            instance = this;
-        }
-    }
-    void Start()
-    {
-        Invoke("SetTargetRef",1f);
+        instance = this;
     }
     void SetTargetRef()
     {
@@ -44,13 +37,13 @@ public class CameraMove : MonoBehaviour
     }
     public void PreGameSet()
     {
-        PreGame = true;
-        Target = GameManager.instance.Player;
+        instance.PreGame = true;
+        instance.SetTargetRef();
+        Debug.Log("Camera pronta");
     }
     public void NewGame()
     {
-        Target = GameManager.instance.Player;
-        StartCoroutine(ChangePosition());
+        instance.StartCoroutine(ChangePosition());
     }
     IEnumerator ChangePosition()
     {

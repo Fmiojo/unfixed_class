@@ -13,10 +13,9 @@ public class EnviromentChanger : MonoBehaviour
     {
         get;set;
     }
-   void Start()
+   void Awake()
    {
-       ChangeEnviroment(GameManager.Enviroments.Forest);
-       StartVariation();
+       Invoke("StartVariation",2f);
    }
    IEnumerator EnviromentVariation()
    {

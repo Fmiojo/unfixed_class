@@ -38,14 +38,12 @@ public class ObstacleSpawner : MonoBehaviour
         {
             instance = this;
         }
-    }
-    void Start()
-    {
         SpawnChance = 60;
         MaxTime = 2f;
         MinTime = 1f;
-        SetType();
+        Invoke("SetType",0.5f);
     }
+
     public void SetType()
     {
         switch(GameManager.instance.CurrentEnviroment)

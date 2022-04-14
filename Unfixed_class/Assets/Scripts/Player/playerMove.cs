@@ -35,10 +35,7 @@ public class playerMove : MonoBehaviour
     Vector3 finalScale;
     void Awake()
     {
-        if(instance == null)
-        {
-            instance = this;
-        }
+        instance = this;
         playerCollider = gameObject.GetComponent<Collider>();
         rb = gameObject.GetComponent<Rigidbody>();
     }    
