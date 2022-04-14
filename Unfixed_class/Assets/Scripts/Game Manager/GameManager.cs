@@ -120,10 +120,11 @@ public class GameManager : MonoBehaviour
     }
     public void NewGame()
     {
+        EnviromentChanger.instance.ChangeEnviroment(Enviroments.Forest);
+        EnviromentChanger.instance.Invoke("StartVariation",EnviromentChanger.instance.MinEnviromentTime);
         instance.Paused = false;
         CameraMove.instance.NewGame();
         HUD.instance.NewGame();
-        SpawnFloor.instance.Spawn();
         instance.Speed = 10;
         instance.DangerTime = 6;
         instance.InvincibleTime = 1;

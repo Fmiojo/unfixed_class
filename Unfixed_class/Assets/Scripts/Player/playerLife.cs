@@ -61,7 +61,7 @@ public class playerLife : MonoBehaviour
          yield return null;
       }
       GameManager.instance.Danger = false;
-      Debug.Log("Fim do ciclo");
+
       yield break;
    }
 }

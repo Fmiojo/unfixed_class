@@ -23,12 +23,10 @@ public class TransformMagic : MonoBehaviour
             used = true;
             if(other.transform.parent == null)
             {
-                Debug.Log("Parent");
                 Destroy(Transform(other.gameObject));
             }
             else
             {
-                Debug.Log("Child");
                 Destroy(Transform(other.transform.parent.gameObject));
             }
             Destroy(gameObject);

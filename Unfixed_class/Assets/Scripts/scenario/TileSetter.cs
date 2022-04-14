@@ -5,7 +5,7 @@ public class TileSetter : MonoBehaviour
 {
     [SerializeField]
     int tiles;
-    void Awake()
+    void Start()
     {
         GameManager.instance.Floor = this.gameObject;
         GameManager.instance.GetTilePos(tiles);

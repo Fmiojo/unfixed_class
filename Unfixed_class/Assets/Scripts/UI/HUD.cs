@@ -20,7 +20,6 @@ public class HUD : MonoBehaviour
     public void PreGame()
     {
         instance.PreGameMenu.SetActive(true);
-        Debug.Log("HUD carregada");
     }
     public void NewGame()
     {

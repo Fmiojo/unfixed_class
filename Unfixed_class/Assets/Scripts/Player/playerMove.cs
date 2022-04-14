@@ -126,12 +126,13 @@ public class playerMove : MonoBehaviour
         changingTile = true;
         posIndex = Mathf.Clamp(posIndex,0,GameManager.instance.tilesPos.Length-1);
         float i = 0;
-        while(i<=1)
+        while(i<1)
         {     
+            i += Time.fixedDeltaTime * changeSpeed;
+            i = Mathf.Clamp(i,0,1);
             float x = Mathf.Lerp(GameManager.instance.tilesPos[(int)playerTile],GameManager.instance.tilesPos[posIndex],i);
             Vector3 targetPos = new Vector3(x,transform.position.y,transform.position.z);
             transform.position = targetPos;
-            i += Time.fixedDeltaTime * changeSpeed;
             yield return null;
         }
         playerTile = (Tiles)posIndex;
@@ -145,13 +146,14 @@ public class playerMove : MonoBehaviour
     IEnumerator CorrectPlacement(int posIndex)
     {
         StopCoroutine(ChangeTile(0));
+        Vector3 inicialPos = transform.position;
+        Vector3 finalPos = new Vector3(GameManager.instance.tilesPos[posIndex],transform.position.y,transform.position.z);
         float t = 0;
-        while(t <= 1)
+        while(t < 1)
         {
-            float x = Mathf.Lerp(transform.position.x,GameManager.instance.tilesPos[posIndex],t);
-            Vector3 targetPos = new Vector3(x,transform.position.y,transform.position.z);
-            transform.position = targetPos;
             t+= Time.fixedDeltaTime * 5;
+            t = Mathf.Clamp(t,0,1);
+            transform.position = Vector3.Lerp(inicialPos,finalPos,t);
             yield return null;
         }
         changingTile = false;

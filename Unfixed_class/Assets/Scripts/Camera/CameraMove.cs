@@ -39,7 +39,6 @@ public class CameraMove : MonoBehaviour
     {
         instance.PreGame = true;
         instance.SetTargetRef();
-        Debug.Log("Camera pronta");
     }
     public void NewGame()
     {
