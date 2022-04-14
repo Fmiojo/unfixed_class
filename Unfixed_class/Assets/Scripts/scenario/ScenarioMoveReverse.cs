@@ -10,7 +10,7 @@ public class ScenarioMoveReverse : MonoBehaviour
     }
     void Move()
     {
-        Vector3 move = new Vector3(0, 0, GameManager.instance.Speed);
+        Vector3 move = new Vector3(0, 0, GameManager.instance.Speed * 3);
         transform.position += move* Time.fixedDeltaTime;
     }
 }

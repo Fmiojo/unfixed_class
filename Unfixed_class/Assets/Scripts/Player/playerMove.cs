@@ -39,30 +39,13 @@ public class playerMove : MonoBehaviour
         playerCollider = gameObject.GetComponent<Collider>();
         rb = gameObject.GetComponent<Rigidbody>();
     }    
-    void Update()
+    void FixedUpdate()
     {
         if(GameManager.instance.Paused == true)
         {
             return;
         }
         CheckGround();
-        if(Input.GetKeyDown(KeyCode.W))
-        {
-            StartCoroutine(Jump());
-        }
-        if(Input.GetKeyDown(KeyCode.S))
-        {
-            StartCoroutine("Roll");
-        }
-        if(Input.GetKeyDown(KeyCode.A))
-        {
-            StartCoroutine(ChangeTile((int)playerTile-1));
-        }
-        if(Input.GetKeyDown(KeyCode.D))
-        {
-            StartCoroutine(ChangeTile((int)playerTile+1));
-        }
-
     }
     void CheckGround()
     {
@@ -80,7 +63,7 @@ public class playerMove : MonoBehaviour
     {
         return grounded;
     }
-    IEnumerator Jump()
+    public IEnumerator Jump()
     {
         if((rolling == true)||(grounded == false))
         {
@@ -97,7 +80,7 @@ public class playerMove : MonoBehaviour
         rb.AddForce(Physics.gravity*(gravityJumpEnd-1),ForceMode.VelocityChange);
         yield break;
     }
-    IEnumerator Roll()
+    public IEnumerator Roll()
     {
         if(rolling == true)
         {
@@ -134,7 +117,7 @@ public class playerMove : MonoBehaviour
         rolling = false;
         yield break;
     }
-    IEnumerator ChangeTile(int posIndex)
+    public IEnumerator ChangeTile(int posIndex)
     {
         if(changingTile == true)
         {

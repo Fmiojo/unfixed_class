@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PowerUps : MonoBehaviour
 {
+    public static PowerUps instance;
     public Rigidbody rb;
     [SerializeField]
     Material classMaterial;
@@ -16,16 +17,9 @@ public class PowerUps : MonoBehaviour
 
     void OnEnable()
     {
+        instance = this;
         SetComponents();
         ReadySkill();
-    }
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            
-            PowerUp();
-        }
     }
     void SetComponents()
     {

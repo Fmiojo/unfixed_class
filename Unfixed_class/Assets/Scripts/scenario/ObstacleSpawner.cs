@@ -5,7 +5,7 @@ using UnityEngine;
 public class ObstacleSpawner : MonoBehaviour
 {
     public static ObstacleSpawner instance;
-    GameObject [] targetArray;
+    public GameObject [] targetArray;
     [SerializeField]
     public int SpawnChance
     {

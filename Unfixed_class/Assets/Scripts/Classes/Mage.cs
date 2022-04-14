@@ -11,5 +11,10 @@ public class Mage : PowerUps
         staff.SetActive(true);
         skillReady = false;
         StartCoroutine(CoolDown(this.coolDownTime));
+        Invoke("EndPowerUp",1f);
     }
+    public void EndPowerUp()
+    {
+        staff.SetActive(false);
+    } 
 }

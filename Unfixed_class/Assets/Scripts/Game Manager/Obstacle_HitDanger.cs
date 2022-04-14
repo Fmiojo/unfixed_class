@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Obstacle_HitDanger : MonoBehaviour
 {
-    void OnTriggerEnter(Collider other)
+    void OnCollisionEnter(Collision other)
     {
 
         if(other.gameObject == GameManager.instance.Player)

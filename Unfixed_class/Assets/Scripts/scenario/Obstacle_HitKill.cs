@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Obstacle_HitKill : MonoBehaviour
 {
-   void OnTriggerEnter(Collider other)
+   void OnCollisionEnter(Collision other)
     {
         if(GameManager.instance.Invincible == false)
         {

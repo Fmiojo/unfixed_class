@@ -6,7 +6,7 @@ public class MageStaff : MonoBehaviour
 {
     [SerializeField]
     GameObject magicShot;
-    void Awake()
+    void OnEnable()
     {
         Magic();
     }

@@ -70,10 +70,6 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         instance.Invoke("PreGame",2f);
     }
-    void OnSceneLoaded(Scene mainScene)
-    {
-        instance.Invoke("PreGame",2f);
-    }
     void Update()
     {
        if(Input.GetKeyDown(KeyCode.Escape))
@@ -120,7 +116,7 @@ public class GameManager : MonoBehaviour
         instance.Paused = true;
         CameraMove.instance.PreGameSet();
         HUD.instance.PreGame();
-        Debug.Log("Chamada");
+        playerInputs.instance.InputsOn = true;
     }
     public void NewGame()
     {
