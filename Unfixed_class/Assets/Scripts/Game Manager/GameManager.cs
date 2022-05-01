@@ -88,12 +88,14 @@ public class GameManager : MonoBehaviour
     {
         Paused = true;
         Time.timeScale = 0;
+        MusicManager.instance.Pause();
         HUD.instance.Pause();
     }
     public  void Unpause()
     {
         Paused = false;
         Time.timeScale = 1;
+        MusicManager.instance.Play();
         HUD.instance.UnPause();
     }
     public void IncreaseSpeed()
@@ -104,6 +106,7 @@ public class GameManager : MonoBehaviour
     {
        Time.timeScale = 0;
        Paused = true;
+       MusicManager.instance.Stop();
        HUD.instance.GameOver();
     }
     public void ReloadScene()
@@ -133,6 +136,7 @@ public class GameManager : MonoBehaviour
         instance.Invincible = false;
         PowerUpSpawner.instance.Invoke("StartRegularSpawning",1f);
         ObstacleSpawner.instance.Invoke("StartRegularSpawning",1f);
+        MusicManager.instance.Play();
     }
     public void GetTilePos(int tiles)
    {
