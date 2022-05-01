@@ -33,7 +33,7 @@ public class PowerUpSpawner : MonoBehaviour
     {
         Vector3 pos = new Vector3(GameManager.instance.tilesPos[tile],transform.position.y,transform.position.z);
         GameObject target = targetArray[targetIndex];
-        Instantiate(target,pos,Quaternion.identity);
+        Instantiate(target,pos,Quaternion.Euler(-90,0,0));
     }
     public void StartRegularSpawning()
     {

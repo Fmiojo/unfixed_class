@@ -15,7 +15,7 @@ public class playerMove : MonoBehaviour
     [SerializeField]
     AudioSource jumpSound;
     [SerializeField]
-    AudioSource tilesSound;
+    AudioSource dashSound;
 
     [SerializeField]
     float jumpHeight;
@@ -78,6 +78,7 @@ public class playerMove : MonoBehaviour
         jumpSpeed = Mathf.Sqrt(jumpHeight * -2.0f * Physics.gravity.y);
         Vector3 jumpForce = new Vector3(0, jumpSpeed-Physics.gravity.y*(1.0f-gravityJumpStart), 0);
         rb.AddForce(jumpForce,ForceMode.VelocityChange);
+        jumpSound.Play();
         yield return new WaitUntil(()=>jumpHeight/2 <= transform.position.y-groundY);
         Vector3 midJumpForce = new Vector3(0,Physics.gravity.y*(1.0f-gravityJumpStart) , 0);
         rb.AddForce(midJumpForce,ForceMode.VelocityChange);
@@ -96,6 +97,7 @@ public class playerMove : MonoBehaviour
         inicialScale = transform.localScale;
         finalScale = new Vector3(inicialScale.x, inicialScale.y * rollingSize, inicialScale.z);
         rb.AddForce(Vector3.down * rollFallGravity, ForceMode.VelocityChange);
+        dashSound.Play();
         while(grounded == false)
         {
             yield return null;
@@ -131,6 +133,7 @@ public class playerMove : MonoBehaviour
         changingTile = true;
         posIndex = Mathf.Clamp(posIndex,0,GameManager.instance.tilesPos.Length-1);
         float i = 0;
+        dashSound.Play();
         while(i<1)
         {     
             i += Time.fixedDeltaTime * changeSpeed;

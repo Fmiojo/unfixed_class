@@ -6,6 +6,8 @@ using UnityEngine;
 public class Warrior : PowerUps
 {   
     [SerializeField]
+    AudioSource dashSound;
+    [SerializeField]
     GameObject particles;
     [SerializeField]
     GameObject warriorShield;
@@ -23,6 +25,7 @@ public class Warrior : PowerUps
             StartCoroutine(CoolDown(this.coolDownTime));
             warriorShield.SetActive(true);
             particles.SetActive(true);
+            dashSound.Play();
             GameManager.instance.Speed = GameManager.instance.Speed *3;
             Invoke("EndPowerUp",shieldDuration);
         }

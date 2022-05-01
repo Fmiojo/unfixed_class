@@ -4,6 +4,8 @@ using UnityEngine;
 public class Thief : PowerUps
 {
     [SerializeField]
+    AudioSource dashSound;
+    [SerializeField]
     float hoveringTime;
     [SerializeField]
     GameObject speedParticles;
@@ -24,6 +26,7 @@ public class Thief : PowerUps
             rb.useGravity = false;
             rb.AddForce(new Vector3(0, -gameObject.GetComponent<Rigidbody>().velocity.y, 0), ForceMode.VelocityChange);
             skillReady = false;
+            dashSound.Play();
             GameManager.instance.Speed = GameManager.instance.Speed*5;
             jumpUsed = true;
             StartCoroutine(EndPowerUp(hoveringTime));

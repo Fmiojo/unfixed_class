@@ -33,8 +33,14 @@ public class AnimationScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-       
-        
+        if(GameManager.instance.Paused == true)
+        {
+            isAnimated = false;
+        }
+        else
+        {
+            isAnimated = true;
+        }
         if(isAnimated)
         {
             if(isRotating)

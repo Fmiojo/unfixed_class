@@ -7,6 +7,9 @@ public class playerLife : MonoBehaviour
 {
    public static playerLife instance;
    [SerializeField]
+   AudioSource hitSound;
+   [SerializeField]
+
    int dangerTicks;
    [SerializeField]
    int invincibleTicks;
@@ -41,7 +44,8 @@ public class playerLife : MonoBehaviour
       Color dangerColor;
       Color invincibleColorMax = new Color(0,0,0,0);
       Color invicibleColor;
-      Color targetColor; 
+      Color targetColor;
+      hitSound.Play(); 
       while(t <= GameManager.instance.DangerTime)
       {
          while(t <= GameManager.instance.InvincibleTime)
