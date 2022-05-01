@@ -27,18 +27,18 @@ public class AudioManager : MonoBehaviour
     }
     public void SetMaster(float vol)
     {
-        mixer.SetFloat("Master",Mathf.Log10(vol) * 20);
+        mixer.SetFloat("MasterVol",Mathf.Log10(vol) * 20);
     }
     public void SetSFX(float vol)
     {
-        mixer.SetFloat("SFX",Mathf.Log10(vol) * 20);
+        mixer.SetFloat("SFXVol",Mathf.Log10(vol) * 20);
     }
     public void SetMusic(float vol)
     {
-        mixer.SetFloat("MUSIC",Mathf.Log10(vol) * 20);
+        mixer.SetFloat("MUSICVol",Mathf.Log10(vol) * 20);
     }
     public void SetUI(float vol)
     {
-        mixer.SetFloat("UI",Mathf.Log10(vol) * 20);
+        mixer.SetFloat("UIVol",Mathf.Log10(vol) * 20);
     }
 }

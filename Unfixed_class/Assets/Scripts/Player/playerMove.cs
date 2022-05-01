@@ -13,6 +13,11 @@ public class playerMove : MonoBehaviour
     [SerializeField, Range(0, 1)]
     float rollingSize;
     [SerializeField]
+    AudioSource jumpSound;
+    [SerializeField]
+    AudioSource tilesSound;
+
+    [SerializeField]
     float jumpHeight;
     [SerializeField]
     float gravityJumpStart;

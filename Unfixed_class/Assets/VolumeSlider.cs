@@ -6,10 +6,11 @@ using UnityEngine.UI;
 
 public class VolumeSlider : MonoBehaviour
 {
+   [SerializeField]
    Slider slider;
    void Awake()
    {
-       slider = gameObject.GetComponent<Slider>();
+       //slider = gameObject.GetComponent<Slider>();
    }
    void OnEnable()
    {
