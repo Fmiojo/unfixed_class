@@ -51,19 +51,15 @@ public class ObstacleSpawner : MonoBehaviour
             case GameManager.Enviroments.Forest:
             {
                 targetArray = woodObjects;
+                Debug.Log("TypeSet");
                 break;
             }
             case GameManager.Enviroments.City:
             {
                 targetArray = stoneObjects;
+                Debug.Log("TypeSet");
                 break;
             }
-            case GameManager.Enviroments.Dungeon:
-            {
-                targetArray = metalObjects;
-                break;
-            }
-
         }
     }
     public void Spawn(GameObject targetSpawn, int tile)

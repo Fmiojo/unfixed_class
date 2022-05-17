@@ -7,15 +7,10 @@ public class EnviromentChanger : MonoBehaviour
 {
     public static EnviromentChanger instance;
     [SerializeField]
-    public float MinEnviromentTime
-    {
-        get;set;
-    }
+    public float MinEnviromentTime;
+
     [SerializeField]
-    public float MaxEnviromentTime
-    {
-        get;set;
-    }
+    public float MaxEnviromentTime;
     public bool Stop
     {
         get;set;
@@ -26,8 +21,8 @@ public class EnviromentChanger : MonoBehaviour
         {
             instance = this;
         }
-        MinEnviromentTime = 20f;
-        MaxEnviromentTime = 60;
+        MinEnviromentTime = 10f;
+        MaxEnviromentTime = 12f;
     }
    IEnumerator EnviromentVariation()
    {
@@ -41,7 +36,14 @@ public class EnviromentChanger : MonoBehaviour
    }
    public void ChangeEnviroment()
    {
-        GameManager.instance.CurrentEnviroment = (GameManager.Enviroments)UnityEngine.Random.Range(0,Enum.GetNames(typeof(GameManager.Enviroments)).Length);
+        GameManager.Enviroments targetEnvironment = (GameManager.Enviroments)UnityEngine.Random.Range(0,Enum.GetNames(typeof(GameManager.Enviroments)).Length);
+        while(targetEnvironment == GameManager.instance.CurrentEnviroment)
+        {
+            targetEnvironment = (GameManager.Enviroments)UnityEngine.Random.Range(0,Enum.GetNames(typeof(GameManager.Enviroments)).Length);
+        }
+        GameManager.instance.CurrentEnviroment = targetEnvironment;
+        Debug.Log(GameManager.instance.CurrentEnviroment);
+        ObstacleSpawner.instance.SetType();
    }
    public void ChangeEnviroment(GameManager.Enviroments targetEnviroment)
    {

@@ -641,6 +641,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Gate_01
       objectReference: {fileID: 0}
+    - target: {fileID: 8807041534172288445, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
 --- !u!4 &7454424631074372944 stripped
@@ -714,6 +718,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -789,6 +797,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Gate_01
       objectReference: {fileID: 0}
+    - target: {fileID: 8807041534172288445, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
 --- !u!4 &7363778155630548621 stripped
@@ -803,6 +815,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: 3098598038507914954, guid: 3b70de28b59a8004d900479a1b213ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7486868721043012974, guid: 3b70de28b59a8004d900479a1b213ab6, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -877,6 +893,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: 3098598038507914954, guid: 3b70de28b59a8004d900479a1b213ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7486868721043012974, guid: 3b70de28b59a8004d900479a1b213ab6, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -951,6 +971,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: 5366962482642729630, guid: e6632668fbb0f7b46a919e92cb22be7d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5862794255674622963, guid: e6632668fbb0f7b46a919e92cb22be7d, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Skull_01
@@ -1085,6 +1109,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &1590931866259398474 stripped
@@ -1158,6 +1186,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -1233,6 +1265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &1611833977155591157 stripped
@@ -1307,6 +1343,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &1611542920975319885 stripped
@@ -1375,6 +1415,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6010198206433535509, guid: a52fb49529438554fb74515043adb565, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213527835116980684, guid: a52fb49529438554fb74515043adb565, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6351011985745345711, guid: a52fb49529438554fb74515043adb565, type: 3}
@@ -1455,6 +1499,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &1630881913573020794 stripped
@@ -1528,6 +1576,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -1603,6 +1655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &1265881151754157016 stripped
@@ -1676,6 +1732,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (119)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -1751,6 +1811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &1182834791445998885 stripped
@@ -1765,6 +1829,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: -7062163919610027120, guid: c444064da803adf4a9c1b2c45b8d8e86, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4952307492421459047, guid: c444064da803adf4a9c1b2c45b8d8e86, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_06
@@ -1899,6 +1967,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &1409584021486846270 stripped
@@ -1972,6 +2044,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -2047,6 +2123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &1334745741347725302 stripped
@@ -2120,6 +2200,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -2195,6 +2279,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &2125136853549694484 stripped
@@ -2269,6 +2357,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &2124350401078413485 stripped
@@ -2283,6 +2375,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: 5366962482642729630, guid: e6632668fbb0f7b46a919e92cb22be7d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5862794255674622963, guid: e6632668fbb0f7b46a919e92cb22be7d, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Skull_01
@@ -2357,6 +2453,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: 5366962482642729630, guid: e6632668fbb0f7b46a919e92cb22be7d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5862794255674622963, guid: e6632668fbb0f7b46a919e92cb22be7d, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Skull_01
@@ -2431,6 +2531,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: 5366962482642729630, guid: e6632668fbb0f7b46a919e92cb22be7d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5862794255674622963, guid: e6632668fbb0f7b46a919e92cb22be7d, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Skull_01 (1)
@@ -2565,6 +2669,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &2286208085674905855 stripped
@@ -2638,6 +2746,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -2713,6 +2825,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (117)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &2269887817152272259 stripped
@@ -2786,6 +2902,10 @@ PrefabInstance:
     - target: {fileID: 5456383978167675690, guid: bbc9270084294ba4da8aa8f702727ef5, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281183616678635074, guid: bbc9270084294ba4da8aa8f702727ef5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbc9270084294ba4da8aa8f702727ef5, type: 3}
@@ -2861,6 +2981,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &1846647286554875284 stripped
@@ -2934,6 +3058,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -3009,6 +3137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &1775717747505016474 stripped
@@ -3023,6 +3155,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: 5894686631208531048, guid: 1a118ca687daa09499984337aaff31c4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7392713375283447902, guid: 1a118ca687daa09499984337aaff31c4, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -3157,6 +3293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &1939778687211010308 stripped
@@ -3231,6 +3371,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &431147855652675218 stripped
@@ -3245,6 +3389,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: 5366962482642729630, guid: e6632668fbb0f7b46a919e92cb22be7d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5862794255674622963, guid: e6632668fbb0f7b46a919e92cb22be7d, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Skull_01 (1)
@@ -3379,6 +3527,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_05
       objectReference: {fileID: 0}
+    - target: {fileID: 8281183616678635074, guid: bbc9270084294ba4da8aa8f702727ef5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbc9270084294ba4da8aa8f702727ef5, type: 3}
 --- !u!4 &5901576757524988869 stripped
@@ -3452,6 +3604,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -3527,6 +3683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &504718049874660807 stripped
@@ -3600,6 +3760,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -3675,6 +3839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &489202272495052573 stripped
@@ -3748,6 +3916,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -3823,6 +3995,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &106157290788809426 stripped
@@ -3896,6 +4072,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -3971,6 +4151,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &71610260256838572 stripped
@@ -4044,6 +4228,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -4119,6 +4307,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &944222193739149388 stripped
@@ -4193,6 +4385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &941168288863512290 stripped
@@ -4207,6 +4403,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: 5330874175959508211, guid: 9fa49baa8ec04224b87fc97cb53be1ae, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6217994057041174089, guid: 9fa49baa8ec04224b87fc97cb53be1ae, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_01
@@ -4341,6 +4541,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &1001290668129069154 stripped
@@ -4414,6 +4618,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -4489,6 +4697,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &898168940591780245 stripped
@@ -4562,6 +4774,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -4637,6 +4853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &907046174758013513 stripped
@@ -4710,6 +4930,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -4785,6 +5009,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &924170492054373509 stripped
@@ -4858,6 +5086,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -4933,6 +5165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &1151145214263316267 stripped
@@ -4947,6 +5183,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: -2640754252906309618, guid: 0b2a412efe6f6984c87ea0f626de8e0e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1262877859760073246, guid: 0b2a412efe6f6984c87ea0f626de8e0e, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -5081,6 +5321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &1029175536952084439 stripped
@@ -5154,6 +5398,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -5229,6 +5477,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &715485515666770362 stripped
@@ -5302,6 +5554,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -5377,6 +5633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &3823593274035583941 stripped
@@ -5450,6 +5710,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -5525,6 +5789,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &3760364352656336733 stripped
@@ -5598,6 +5866,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -5673,6 +5945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &3772005593999624513 stripped
@@ -5746,6 +6022,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -5821,6 +6101,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &4026111146132589739 stripped
@@ -5835,6 +6119,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: -5788992474555952658, guid: 9b8e86e3dcb69a04abe7f4eff1461daf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6314067978243825597, guid: 9b8e86e3dcb69a04abe7f4eff1461daf, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -5909,6 +6197,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: -5801792470325867533, guid: ecb535e3c20b47148b695b0341d7016a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8626147870420713137, guid: ecb535e3c20b47148b695b0341d7016a, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_04
@@ -6043,6 +6335,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &3574526644748507849 stripped
@@ -6116,6 +6412,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -6191,6 +6491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &3687155013450492798 stripped
@@ -6205,6 +6509,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: 5720092362003811980, guid: e604cb8188dec9a4dbf291a72b06a639, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8319082924800319194, guid: e604cb8188dec9a4dbf291a72b06a639, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_08 (1)
@@ -6339,6 +6647,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &3701889185827589613 stripped
@@ -6412,6 +6724,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -6487,6 +6803,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &3653696757782598261 stripped
@@ -6560,6 +6880,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -6635,6 +6959,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &4403614867774409821 stripped
@@ -6708,6 +7036,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -6783,6 +7115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &4459266634368366200 stripped
@@ -6857,6 +7193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &4455874524123963670 stripped
@@ -6871,6 +7211,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: -9151234605469599500, guid: 81d8924183cb4bb4b898ab75aeecb8ad, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6963856772657323514, guid: 81d8924183cb4bb4b898ab75aeecb8ad, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_02 (1)
@@ -7005,6 +7349,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &4338138490072536907 stripped
@@ -7078,6 +7426,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -7153,6 +7505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_05
       objectReference: {fileID: 0}
+    - target: {fileID: 8281183616678635074, guid: bbc9270084294ba4da8aa8f702727ef5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbc9270084294ba4da8aa8f702727ef5, type: 3}
 --- !u!4 &7677208206844020597 stripped
@@ -7167,6 +7523,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: 3098598038507914954, guid: 3b70de28b59a8004d900479a1b213ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7486868721043012974, guid: 3b70de28b59a8004d900479a1b213ab6, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -7301,6 +7661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &4510268044711733171 stripped
@@ -7374,6 +7738,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -7449,6 +7817,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &4064109117462104954 stripped
@@ -7463,6 +7835,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: 5366962482642729630, guid: e6632668fbb0f7b46a919e92cb22be7d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5862794255674622963, guid: e6632668fbb0f7b46a919e92cb22be7d, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Skull_01
@@ -7597,6 +7973,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &4278595907040279360 stripped
@@ -7670,6 +8050,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -7745,6 +8129,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &4218495561710659942 stripped
@@ -7818,6 +8206,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -7893,6 +8285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &2877730352950889072 stripped
@@ -7907,6 +8303,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: -6272559867798860685, guid: fe00a14b385d7344ab164c92f1a46e67, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2828505333282711872, guid: fe00a14b385d7344ab164c92f1a46e67, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -8041,6 +8441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (124)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &2872353273899508793 stripped
@@ -8114,6 +8518,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (116)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -8189,6 +8597,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &2807209696720823647 stripped
@@ -8262,6 +8674,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -8337,6 +8753,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &2424066743332116538 stripped
@@ -8351,6 +8771,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: -6367903159221045615, guid: 01a60b79a8355b045bc3037a12c9333d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5880809858209599249, guid: 01a60b79a8355b045bc3037a12c9333d, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_03 (2)
@@ -8485,6 +8909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &2416076098606785722 stripped
@@ -8559,6 +8987,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &2416953181894555570 stripped
@@ -8573,6 +9005,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: 5894686631208531048, guid: 1a118ca687daa09499984337aaff31c4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7392713375283447902, guid: 1a118ca687daa09499984337aaff31c4, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -8707,6 +9143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &2465751299877865530 stripped
@@ -8721,6 +9161,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: -9151234605469599500, guid: 81d8924183cb4bb4b898ab75aeecb8ad, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6963856772657323514, guid: 81d8924183cb4bb4b898ab75aeecb8ad, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_02
@@ -8855,6 +9299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &2483392283289505829 stripped
@@ -8928,6 +9376,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -9003,6 +9455,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &2475203240285923345 stripped
@@ -9017,6 +9473,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: -4337223807953493809, guid: c57ddcf2e214de54aa3bbd3aaddff512, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3767113852557087609, guid: c57ddcf2e214de54aa3bbd3aaddff512, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -9151,6 +9611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &2504745257125530322 stripped
@@ -9225,6 +9689,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &3226026029282420514 stripped
@@ -9239,6 +9707,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: -2992275133617727779, guid: b5af7c31aab1627418db38190efa3109, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7389186172822773402, guid: b5af7c31aab1627418db38190efa3109, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Monuntain_Desert_02
@@ -9373,6 +9845,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_05 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8281183616678635074, guid: bbc9270084294ba4da8aa8f702727ef5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbc9270084294ba4da8aa8f702727ef5, type: 3}
 --- !u!4 &8927314290944370801 stripped
@@ -9446,6 +9922,10 @@ PrefabInstance:
     - target: {fileID: 7828404238315967327, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Gate_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8807041534172288445, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
@@ -9521,6 +10001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &3333137994492094659 stripped
@@ -9594,6 +10078,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -9669,6 +10157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &2967326993718734970 stripped
@@ -9683,6 +10175,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: -6367903159221045615, guid: 01a60b79a8355b045bc3037a12c9333d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5880809858209599249, guid: 01a60b79a8355b045bc3037a12c9333d, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_03 (2)
@@ -9757,6 +10253,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: -1591662890927986167, guid: e4c10aef563723a4f84ebe34694c8647, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5161128417348397373, guid: e4c10aef563723a4f84ebe34694c8647, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -9891,6 +10391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &2932601270168563378 stripped
@@ -9964,6 +10468,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -10039,6 +10547,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &3034339733711964459 stripped
@@ -10053,6 +10565,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: -6367903159221045615, guid: 01a60b79a8355b045bc3037a12c9333d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5880809858209599249, guid: 01a60b79a8355b045bc3037a12c9333d, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_03 (1)
@@ -10187,6 +10703,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &6194863444785600703 stripped
@@ -10201,6 +10721,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: 5894686631208531048, guid: 1a118ca687daa09499984337aaff31c4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7392713375283447902, guid: 1a118ca687daa09499984337aaff31c4, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -10335,6 +10859,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &6299452571968141557 stripped
@@ -10408,6 +10936,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -10483,6 +11015,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &6220188227494718174 stripped
@@ -10497,6 +11033,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: 5720092362003811980, guid: e604cb8188dec9a4dbf291a72b06a639, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8319082924800319194, guid: e604cb8188dec9a4dbf291a72b06a639, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_08
@@ -10631,6 +11171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &5989078037862046602 stripped
@@ -10645,6 +11189,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: 5330874175959508211, guid: 9fa49baa8ec04224b87fc97cb53be1ae, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6217994057041174089, guid: 9fa49baa8ec04224b87fc97cb53be1ae, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_01
@@ -10719,6 +11267,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: -5801792470325867533, guid: ecb535e3c20b47148b695b0341d7016a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8626147870420713137, guid: ecb535e3c20b47148b695b0341d7016a, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_04
@@ -10853,6 +11405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &5947877552755016579 stripped
@@ -10926,6 +11482,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -11001,6 +11561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &6772478028247387463 stripped
@@ -11075,6 +11639,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &6788778511703870031 stripped
@@ -11089,6 +11657,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: -7062163919610027120, guid: c444064da803adf4a9c1b2c45b8d8e86, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4952307492421459047, guid: c444064da803adf4a9c1b2c45b8d8e86, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_06
@@ -11223,6 +11795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &6429371007489691894 stripped
@@ -11296,6 +11872,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -11371,6 +11951,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &6376173601621800872 stripped
@@ -11444,6 +12028,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -11519,6 +12107,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &6577613575266563944 stripped
@@ -11593,6 +12185,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &6596961034354482731 stripped
@@ -11607,6 +12203,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: 3098598038507914954, guid: 3b70de28b59a8004d900479a1b213ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7486868721043012974, guid: 3b70de28b59a8004d900479a1b213ab6, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -11741,6 +12341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &6494370012072925869 stripped
@@ -11814,6 +12418,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -11889,6 +12497,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &6509418872567117550 stripped
@@ -11962,6 +12574,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -12037,6 +12653,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &6528726572077995482 stripped
@@ -12110,6 +12730,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -12185,6 +12809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &4989880609441925772 stripped
@@ -12259,6 +12887,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &4943461178346210063 stripped
@@ -12273,6 +12905,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: -9151234605469599500, guid: 81d8924183cb4bb4b898ab75aeecb8ad, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6963856772657323514, guid: 81d8924183cb4bb4b898ab75aeecb8ad, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_02
@@ -12407,6 +13043,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &5092034030828259396 stripped
@@ -12421,6 +13061,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: 5894686631208531048, guid: 1a118ca687daa09499984337aaff31c4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7392713375283447902, guid: 1a118ca687daa09499984337aaff31c4, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -12551,6 +13195,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6213527835116980684, guid: a52fb49529438554fb74515043adb565, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6351011985745345711, guid: a52fb49529438554fb74515043adb565, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_10
@@ -12629,6 +13277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &4619965059476099428 stripped
@@ -12643,6 +13295,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: 5330874175959508211, guid: 9fa49baa8ec04224b87fc97cb53be1ae, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6217994057041174089, guid: 9fa49baa8ec04224b87fc97cb53be1ae, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_01
@@ -12717,6 +13373,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: 5371485246626056766, guid: 494f6d43e170e9145bc7865d243ee00b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5440707293445505367, guid: 494f6d43e170e9145bc7865d243ee00b, type: 3}
       propertyPath: m_Name
       value: Mushroom_02
@@ -12851,6 +13511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &4828727439178328218 stripped
@@ -12924,6 +13588,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -12999,6 +13667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &4887683433733390994 stripped
@@ -13013,6 +13685,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: -1591662890927986167, guid: e4c10aef563723a4f84ebe34694c8647, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5161128417348397373, guid: e4c10aef563723a4f84ebe34694c8647, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -13087,6 +13763,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: 5330874175959508211, guid: 9fa49baa8ec04224b87fc97cb53be1ae, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6217994057041174089, guid: 9fa49baa8ec04224b87fc97cb53be1ae, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_01
@@ -13221,6 +13901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &5710068587321680412 stripped
@@ -13294,6 +13978,10 @@ PrefabInstance:
     - target: {fileID: 7828404238315967327, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Gate_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8807041534172288445, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
@@ -13369,6 +14057,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &5723144533712725535 stripped
@@ -13442,6 +14134,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (120)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -13517,6 +14213,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &5732780246492860606 stripped
@@ -13591,6 +14291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &5652798383037870408 stripped
@@ -13605,6 +14309,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: -4337223807953493809, guid: c57ddcf2e214de54aa3bbd3aaddff512, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3767113852557087609, guid: c57ddcf2e214de54aa3bbd3aaddff512, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -13739,6 +14447,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &5299432494712784635 stripped
@@ -13812,6 +14524,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -13887,6 +14603,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &5200873358586317691 stripped
@@ -13961,6 +14681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &5248839427485003459 stripped
@@ -13975,6 +14699,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: -6272559867798860685, guid: fe00a14b385d7344ab164c92f1a46e67, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2828505333282711872, guid: fe00a14b385d7344ab164c92f1a46e67, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -14109,6 +14837,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &5439413338890009980 stripped
@@ -14182,6 +14914,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -14257,6 +14993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &5359714369458398409 stripped
@@ -14330,6 +15070,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -14405,6 +15149,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &8435287474868054760 stripped
@@ -14419,6 +15167,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: 5720092362003811980, guid: e604cb8188dec9a4dbf291a72b06a639, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8319082924800319194, guid: e604cb8188dec9a4dbf291a72b06a639, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_08
@@ -14553,6 +15305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &8480101932505993877 stripped
@@ -14626,6 +15382,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -14701,6 +15461,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &8410246900002443060 stripped
@@ -14774,6 +15538,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -14849,6 +15617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &8423274703476183859 stripped
@@ -14922,6 +15694,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -14997,6 +15773,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &8586999821676585029 stripped
@@ -15070,6 +15850,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -15145,6 +15929,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &8519093496804727475 stripped
@@ -15159,6 +15947,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: -2992275133617727779, guid: b5af7c31aab1627418db38190efa3109, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7389186172822773402, guid: b5af7c31aab1627418db38190efa3109, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Monuntain_Desert_02
@@ -15293,6 +16085,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &8176156912165241382 stripped
@@ -15366,6 +16162,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -15441,6 +16241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &8137924339295223881 stripped
@@ -15514,6 +16318,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -15589,6 +16397,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &8347479521229510214 stripped
@@ -15662,6 +16474,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -15737,6 +16553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &8242653239444867286 stripped
@@ -15810,6 +16630,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -15885,6 +16709,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_05
       objectReference: {fileID: 0}
+    - target: {fileID: 8281183616678635074, guid: bbc9270084294ba4da8aa8f702727ef5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbc9270084294ba4da8aa8f702727ef5, type: 3}
 --- !u!4 &2990174321658169801 stripped
@@ -15959,6 +16787,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &8998600493560603212 stripped
@@ -15973,6 +16805,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: -9151234605469599500, guid: 81d8924183cb4bb4b898ab75aeecb8ad, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6963856772657323514, guid: 81d8924183cb4bb4b898ab75aeecb8ad, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_02 (1)
@@ -16107,6 +16943,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &9181701574792098235 stripped
@@ -16180,6 +17020,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -16255,6 +17099,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &9210416547932099128 stripped
@@ -16269,6 +17117,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: 5371485246626056766, guid: 494f6d43e170e9145bc7865d243ee00b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5440707293445505367, guid: 494f6d43e170e9145bc7865d243ee00b, type: 3}
       propertyPath: m_Name
       value: Mushroom_02
@@ -16403,6 +17255,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &9207685675805316857 stripped
@@ -16476,6 +17332,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -16551,6 +17411,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &9141255244881697116 stripped
@@ -16624,6 +17488,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -16699,6 +17567,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &8725816093914525690 stripped
@@ -16772,6 +17644,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -16847,6 +17723,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &8922440401235563144 stripped
@@ -16861,6 +17741,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: 5720092362003811980, guid: e604cb8188dec9a4dbf291a72b06a639, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8319082924800319194, guid: e604cb8188dec9a4dbf291a72b06a639, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_08 (1)
@@ -16995,6 +17879,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &7342651894514402122 stripped
@@ -17068,6 +17956,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -17143,6 +18035,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &7235206199498300172 stripped
@@ -17217,6 +18113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &7268945774376257282 stripped
@@ -17231,6 +18131,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: -1591662890927986167, guid: e4c10aef563723a4f84ebe34694c8647, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5161128417348397373, guid: e4c10aef563723a4f84ebe34694c8647, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -17365,6 +18269,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &7357122612458865449 stripped
@@ -17379,6 +18287,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: -6367903159221045615, guid: 01a60b79a8355b045bc3037a12c9333d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5880809858209599249, guid: 01a60b79a8355b045bc3037a12c9333d, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_03
@@ -17513,6 +18425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &7017793391987321610 stripped
@@ -17527,6 +18443,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: -6367903159221045615, guid: 01a60b79a8355b045bc3037a12c9333d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5880809858209599249, guid: 01a60b79a8355b045bc3037a12c9333d, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_03
@@ -17661,6 +18581,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &6947022926337852916 stripped
@@ -17735,6 +18659,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &6939615240168335775 stripped
@@ -17749,6 +18677,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: -1591662890927986167, guid: e4c10aef563723a4f84ebe34694c8647, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5161128417348397373, guid: e4c10aef563723a4f84ebe34694c8647, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -17883,6 +18815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &6973896132654047314 stripped
@@ -17897,6 +18833,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: -6367903159221045615, guid: 01a60b79a8355b045bc3037a12c9333d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5880809858209599249, guid: 01a60b79a8355b045bc3037a12c9333d, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Plant_03 (1)
@@ -18031,6 +18971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &7067157786652192051 stripped
@@ -18104,6 +19048,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -18179,6 +19127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_05 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8281183616678635074, guid: bbc9270084294ba4da8aa8f702727ef5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbc9270084294ba4da8aa8f702727ef5, type: 3}
 --- !u!4 &3976093291434194754 stripped
@@ -18193,6 +19145,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: -2640754252906309618, guid: 0b2a412efe6f6984c87ea0f626de8e0e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1262877859760073246, guid: 0b2a412efe6f6984c87ea0f626de8e0e, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -18327,6 +19283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &7900207592112278935 stripped
@@ -18341,6 +19301,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: -4337223807953493809, guid: c57ddcf2e214de54aa3bbd3aaddff512, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3767113852557087609, guid: c57ddcf2e214de54aa3bbd3aaddff512, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -18475,6 +19439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &7824567831040630923 stripped
@@ -18489,6 +19457,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247651606100922829}
     m_Modifications:
+    - target: {fileID: -5998639011202826041, guid: 07b69e264410fe54c8640fb346c86ece, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1013253052236951348, guid: 07b69e264410fe54c8640fb346c86ece, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -18623,6 +19595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &8019778284330541580 stripped
@@ -18637,6 +19613,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808332259551292149}
     m_Modifications:
+    - target: {fileID: -4337223807953493809, guid: c57ddcf2e214de54aa3bbd3aaddff512, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3767113852557087609, guid: c57ddcf2e214de54aa3bbd3aaddff512, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -18771,6 +19751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &7539576984244854579 stripped
@@ -18844,6 +19828,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
@@ -18919,6 +19907,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &7768343735669401559 stripped
@@ -18992,6 +19984,10 @@ PrefabInstance:
     - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_01 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385003621708584480, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}

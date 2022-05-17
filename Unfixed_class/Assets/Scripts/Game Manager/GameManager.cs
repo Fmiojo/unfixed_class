@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     {
        get;set;
     }
-    public enum Enviroments{Forest,City,Dungeon}
+    public enum Enviroments{Forest,City}
     public Enviroments CurrentEnviroment
     {
        get;set;
@@ -118,6 +118,7 @@ public class GameManager : MonoBehaviour
         MusicManager.instance.Pregame();
         HUD.instance.PreGame();
         playerInputs.instance.InputsOn = true;
+        PlayerInputsMobile.instance.InputsOn = true;
     }
     public void NewGame()
     {
